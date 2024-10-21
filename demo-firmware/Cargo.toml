@@ -13,7 +13,7 @@ cortex-m = "0.7.7"
 cortex-m-rt = "0.7.3"
 embassy-rp = { version = "0.2.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
 
-embassy-executor = { version = "0.6.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt", "integrated-timers"] }
+embassy-executor = { version = "0.6.1", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt", "integrated-timers"] }
 embassy-time = "0.3.2"
 
 embedded-hal = { package = "embedded-hal", version = "1.0.0" }
