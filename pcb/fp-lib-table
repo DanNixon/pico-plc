@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/lib/RaspberryPi_Pico/Module_RaspberryPi_Pico.pretty")(options "")(descr ""))
+  (lib (name "Conn_ScrewTerminals")(type "KiCad")(uri "${KIPRJMOD}/lib/Conn_ScrewTerminals.pretty")(options "")(descr ""))
+)

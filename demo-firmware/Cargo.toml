@@ -1,0 +1,41 @@
+[package]
+name = "pico-plc-demo-firmware"
+version = "0.1.0"
+authors = ["Dan Nixon <dan@dan-nixon.com>"]
+edition = "2021"
+license = "MIT"
+
+[features]
+panic-probe = ["dep:panic-probe"]
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+embassy-rp = { version = "0.2.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
+
+embassy-executor = { version = "0.6.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt", "integrated-timers"] }
+embassy-time = "0.3.2"
+
+embedded-hal = { package = "embedded-hal", version = "1.0.0" }
+embedded-hal-p2 = { package = "embedded-hal", version = "0.2.0" }
+
+defmt = "0.3.8"
+defmt-rtt = "0.4.1"
+panic-probe = { version = "0.3.2", features = ["print-defmt"], optional = true }
+
+embassy-sync = "0.6.0"
+portable-atomic = { version = "1.9.0", features = ["critical-section"] }
+static_cell = "2.1.0"
+
+one-wire-bus = "0.1.1"
+ds18b20 = "0.1.1"
+
+[profile.release]
+debug = 2
+lto = true
+opt-level = 'z'
+
+[profile.dev]
+debug = 2
+lto = true
+opt-level = "z"

@@ -1,0 +1,568 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "73d16da3-65c9-40ab-8eb0-3a9e99c4c735")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05924a33-9600-47de-999e-c9599bb0178f")
+	)
+	(wire
+		(pts
+			(xy 60.96 53.34) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10472e39-85f5-49ee-bbbe-9f9c540fcba6")
+	)
+	(wire
+		(pts
+			(xy 60.96 130.81) (xy 63.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11298cf9-7017-4b07-8c1d-752c9d59f77e")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56197cb0-6c3b-4205-bcb2-ccbaa3d1cadc")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 63.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb780ca-50bd-4ccb-9d71-e9c8b8be9128")
+	)
+	(wire
+		(pts
+			(xy 60.96 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b55781-2e81-4145-bba4-260d07843eb5")
+	)
+	(wire
+		(pts
+			(xy 60.96 104.14) (xy 63.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27005f9-b973-4510-be02-901b7d75a9b8")
+	)
+	(wire
+		(pts
+			(xy 60.96 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91714d9-033e-454c-8734-0f25d3e3c0fa")
+	)
+	(hierarchical_label "Relay 5"
+		(shape input)
+		(at 60.96 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "227ab1a9-9b6d-4fb6-965b-79956dd9df2b")
+	)
+	(hierarchical_label "Relay 3"
+		(shape input)
+		(at 60.96 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55ded5c8-3b16-45d0-b261-b9ead583ad75")
+	)
+	(hierarchical_label "Relay 8"
+		(shape input)
+		(at 60.96 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6427b896-fe84-465c-9ff0-9b8d90ed5adb")
+	)
+	(hierarchical_label "Relay 2"
+		(shape input)
+		(at 60.96 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67e686f4-8489-4b5a-9df3-960e8f87c034")
+	)
+	(hierarchical_label "Relay 1"
+		(shape input)
+		(at 60.96 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acc21073-8220-4eb6-8854-c0594a52ad77")
+	)
+	(hierarchical_label "Relay 6"
+		(shape input)
+		(at 60.96 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9cb6919-6725-4034-93b1-1005899ea849")
+	)
+	(hierarchical_label "Relay 7"
+		(shape input)
+		(at 60.96 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9dbd1f6-d6ac-41ca-a61c-8ee87b6fe238")
+	)
+	(hierarchical_label "Relay 4"
+		(shape input)
+		(at 60.96 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eea0287f-7718-43f0-b934-b2f59f4388f0")
+	)
+	(sheet
+		(at 63.5 101.6)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d3ba362-3b92-45f3-9060-730beedd8499")
+		(property "Sheetname" "Relay 5"
+			(at 63.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be7448e4-c70d-4b8a-b83a-d00a33e503c6")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 114.3)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96f92402-c7b7-4dc5-a9ff-0af65a03efd2")
+		(property "Sheetname" "Relay 6"
+			(at 63.5 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f95b000-e9b9-4bf5-a08d-ea4d0481bdaa")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9999e760-32a4-456c-949e-48b48f741e76")
+		(property "Sheetname" "Relay 2"
+			(at 63.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4869f46b-86a4-4364-b636-3037b902fb1e")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 50.8)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d16c5b7f-0576-4119-88d6-02fdf5409e99")
+		(property "Sheetname" "Relay 1"
+			(at 63.5 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef2d05f7-a826-49e2-8183-f092cf9e64e8")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 128.27)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d40337d4-8a6b-49e2-ab5e-01b05c1c8443")
+		(property "Sheetname" "Relay 7"
+			(at 63.5 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09c1d7cc-713b-4f7d-9ee6-1027e1ee6e6d")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4c5e140-4a91-44ab-87ca-e134dccbaaf6")
+		(property "Sheetname" "Relay 4"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f1e40b2-7a7a-410c-9224-6c6a90a32a58")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 38.1)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbd8dd50-415f-4c7a-8435-67461a0abf61")
+		(property "Sheetname" "Relay 0"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddebcb77-b8fe-4c92-94fd-ff5183996cd0")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 76.2)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe25513e-b908-4f4a-beb6-d8cfa254527d")
+		(property "Sheetname" "Relay 3"
+			(at 63.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_output.kicad_sch"
+			(at 63.5 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" input
+			(at 63.5 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "972e18fb-2068-4671-b4db-13827ae9a185")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/04ede582-ad77-44e8-a7e8-28b2ed118ac8"
+					(page "16")
+				)
+			)
+		)
+	)
+)

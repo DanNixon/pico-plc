@@ -1,0 +1,568 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "55d76767-650c-4c0d-b8f4-1ee18556f091")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d870215-0518-4bd0-99b5-03c0c89fbe2d")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e909fe-66b9-4c34-a160-0fb267295470")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 78.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397ffd82-7515-4f1d-9c3b-0bbf3abef4ca")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722eadd8-5496-4bb7-8b28-3349f534d903")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949b326f-828c-42f9-9304-2bcb3561c55d")
+	)
+	(wire
+		(pts
+			(xy 76.2 129.54) (xy 78.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45eefac-1124-4aef-903b-0077e82a691a")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3833ffa-146e-4c94-981a-0770efadfdd1")
+	)
+	(wire
+		(pts
+			(xy 76.2 116.84) (xy 78.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02ea7db-7dec-4c57-a7b8-2dd100872069")
+	)
+	(hierarchical_label "Input 5"
+		(shape output)
+		(at 78.74 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0174ae1f-2e34-4fff-a3c9-7a5243b4a3ef")
+	)
+	(hierarchical_label "Input 3"
+		(shape output)
+		(at 78.74 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0611cde5-1e51-4d1e-98f6-9efd31afaac7")
+	)
+	(hierarchical_label "Input 2"
+		(shape output)
+		(at 78.74 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "870458a2-92b5-4853-a271-6a6bdb6351e2")
+	)
+	(hierarchical_label "Input 8"
+		(shape output)
+		(at 78.74 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91a1bdc6-998e-4d64-bb09-7a77920d4ed8")
+	)
+	(hierarchical_label "Input 1"
+		(shape output)
+		(at 78.74 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c381a92-2c3c-4dbf-89ce-6575bdffe826")
+	)
+	(hierarchical_label "Input 4"
+		(shape output)
+		(at 78.74 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5cb3b15-f54a-419c-b19d-cfdd6d683851")
+	)
+	(hierarchical_label "Input 6"
+		(shape output)
+		(at 78.74 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d828c20c-a81d-4e74-acd3-6c642faaf3f1")
+	)
+	(hierarchical_label "Input 7"
+		(shape output)
+		(at 78.74 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de99c63a-6f2b-466f-ae51-b2a2099f81e8")
+	)
+	(sheet
+		(at 63.5 127)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bdd2078-8570-4ad6-9003-b4e5009e5511")
+		(property "Sheetname" "Input 7"
+			(at 63.5 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9bc1b6fe-3fbc-4164-afef-7e219f566f22")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 38.1)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26984477-6e52-4ef7-808d-c592db2e12dc")
+		(property "Sheetname" "Input 0"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40d427cc-8513-43c1-9675-0f497ca068c2")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 101.6)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56f612e4-f8df-4a29-a4b3-cc593e9a40a1")
+		(property "Sheetname" "Input 5"
+			(at 63.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b8cd172-3d8a-421c-949f-208f1d0602b3")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 50.8)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5")
+		(property "Sheetname" "Input 1"
+			(at 63.5 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d98b261-8b54-4767-9851-991bd39bfe95")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 88.9)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77ea1673-a597-4954-a86a-85da7195f7a6")
+		(property "Sheetname" "Input 4"
+			(at 63.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1a14c19-b663-4276-8df5-a622586d924c")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 76.2)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9cb0a94-4e79-4a1b-9d76-c170745af398")
+		(property "Sheetname" "Input 3"
+			(at 63.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74c4ce72-b93c-4037-91e7-97fbebf2a9b5")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 114.3)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c880fe79-66fb-4f0a-981b-0f1be715f955")
+		(property "Sheetname" "Input 6"
+			(at 63.5 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c893c505-8b96-4f30-b055-0e74b24afa46")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fdf1e83c-cb6c-4463-8418-1d25a179c909")
+		(property "Sheetname" "Input 2"
+			(at 63.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto_input.kicad_sch"
+			(at 63.5 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Signal" output
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "933f780c-5e57-4e51-8671-cf765ca7154e")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4/9c980951-c203-443f-a19c-7cd136718808"
+					(page "23")
+				)
+			)
+		)
+	)
+)

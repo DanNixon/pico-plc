@@ -1,0 +1,58 @@
+---
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  pull_request:
+
+jobs:
+  formatting:
+    name: Formatting
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v14
+
+      # Evaluate the devshell here so that the time reported for subsequent
+      # steps that use it reflect what is actually done there.
+      - name: Evaluate devshell
+        run: nix develop
+
+      - name: Format
+        run: nix develop --command treefmt --fail-on-change
+
+  demo-firmware:
+    name: Demo firmware
+    needs:
+      - formatting
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./demo-firmware
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@v14
+
+      # Evaluate the devshell here so that the time reported for subsequent
+      # steps that use it reflect what is actually done there.
+      - name: Evaluate devshell
+        run: nix develop
+
+      - name: Add Rust target
+        run: nix develop --command rustup target add thumbv6m-none-eabi
+
+      - name: Clippy
+        run: nix develop --command cargo clippy -- -D warnings
+
+      - name: Build
+        run: nix develop --command cargo build
+
+      - name: Build (with panic_probe)
+        run: nix develop --command cargo build -F panic-probe

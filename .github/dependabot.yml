@@ -1,0 +1,16 @@
+version: 2
+
+updates:
+  - package-ecosystem: cargo
+    directory: "./demo-firmware/"
+    schedule:
+      interval: "monthly"
+    groups:
+      cargo-dependencies:
+        patterns:
+          - "*"
+
+  - package-ecosystem: github-actions
+    directory: "./"
+    schedule:
+      interval: "monthly"

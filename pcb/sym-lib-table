@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RaspberryPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/lib/RaspberryPi_Pico/MCU_Module_RaspberryPi_Pico.kicad_sym")(options "")(descr ""))
+)
