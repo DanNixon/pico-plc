@@ -23,7 +23,7 @@ defmt = "0.3.10"
 defmt-rtt = "0.4.1"
 panic-probe = { version = "0.3.2", features = ["print-defmt"], optional = true }
 
-embassy-sync = "0.6.1"
+embassy-sync = "0.6.2"
 portable-atomic = { version = "1.10.0", features = ["critical-section"] }
 static_cell = "2.1.0"
 
