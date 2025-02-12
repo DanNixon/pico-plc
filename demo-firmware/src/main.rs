@@ -3,7 +3,7 @@
 
 use defmt::{debug, info, unwrap};
 use defmt_rtt as _;
-use embassy_executor::{Executor, Spawner};
+use embassy_executor::Executor;
 use embassy_rp::{
     gpio::{Input, Level, Output, OutputOpenDrain, Pull},
     multicore::{spawn_core1, Stack},
@@ -14,6 +14,7 @@ use embassy_time::{Duration, Ticker, Timer};
 use one_wire_bus::OneWire;
 #[cfg(feature = "panic-probe")]
 use panic_probe as _;
+use portable_atomic as _;
 use static_cell::StaticCell;
 
 #[cfg(not(feature = "panic-probe"))]
@@ -40,8 +41,8 @@ enum Event {
     GeneralIoChanged { num: usize, level: Level },
 }
 
-#[embassy_executor::main]
-async fn main(_spawner: Spawner) {
+#[cortex_m_rt::entry]
+fn main() -> ! {
     let p = embassy_rp::init(Default::default());
 
     let mut watchdog = Watchdog::new(p.WATCHDOG);
