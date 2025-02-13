@@ -88,7 +88,6 @@
 	(hierarchical_label "Input 5"
 		(shape output)
 		(at 78.74 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -100,7 +99,6 @@
 	(hierarchical_label "Input 3"
 		(shape output)
 		(at 78.74 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -112,7 +110,6 @@
 	(hierarchical_label "Input 2"
 		(shape output)
 		(at 78.74 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,7 +121,6 @@
 	(hierarchical_label "Input 8"
 		(shape output)
 		(at 78.74 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -136,7 +132,6 @@
 	(hierarchical_label "Input 1"
 		(shape output)
 		(at 78.74 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -148,7 +143,6 @@
 	(hierarchical_label "Input 4"
 		(shape output)
 		(at 78.74 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -160,7 +154,6 @@
 	(hierarchical_label "Input 6"
 		(shape output)
 		(at 78.74 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -172,7 +165,6 @@
 	(hierarchical_label "Input 7"
 		(shape output)
 		(at 78.74 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

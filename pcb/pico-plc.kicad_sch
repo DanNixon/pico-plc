@@ -107,23 +107,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -148,7 +148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -166,7 +166,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -175,9 +175,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -185,6 +185,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1201,151 +1221,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -1780,8 +1655,16 @@
 		)
 	)
 	(no_connect
+		(at 228.6 156.21)
+		(uuid "3488e492-4293-4ed4-897d-dd9212590ffd")
+	)
+	(no_connect
 		(at 81.28 48.26)
 		(uuid "8235294f-6dbd-4280-9599-1064db6050a9")
+	)
+	(no_connect
+		(at 254 156.21)
+		(uuid "e9019ed7-d4c4-4d4d-bba9-ca398395be58")
 	)
 	(wire
 		(pts
@@ -1792,16 +1675,6 @@
 			(type default)
 		)
 		(uuid "02af3ba8-7fbf-42e7-81cb-7009477a186e")
-	)
-	(wire
-		(pts
-			(xy 139.7 176.53) (xy 139.7 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05bb2258-6587-4f9e-b93c-2fcfee197791")
 	)
 	(wire
 		(pts
@@ -1995,16 +1868,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 139.7 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ebdc8ec-fbef-4177-a40b-0e1814f5b89c")
-	)
-	(wire
-		(pts
 			(xy 50.8 71.12) (xy 53.34 71.12)
 		)
 		(stroke
@@ -2052,26 +1915,6 @@
 			(type default)
 		)
 		(uuid "5f3b1002-5af4-4bc0-b020-8a084b33f2ea")
-	)
-	(wire
-		(pts
-			(xy 114.3 162.56) (xy 114.3 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60882264-7c72-4488-928b-84b2946ad1ba")
-	)
-	(wire
-		(pts
-			(xy 114.3 176.53) (xy 114.3 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e8480e-2613-451b-a5a6-16a09ec569d3")
 	)
 	(wire
 		(pts
@@ -2385,7 +2228,6 @@
 	)
 	(label "IO17"
 		(at 213.36 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,7 +2238,6 @@
 	)
 	(label "IO8"
 		(at 213.36 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2407,7 +2248,6 @@
 	)
 	(label "IO3"
 		(at 50.8 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2418,7 +2258,6 @@
 	)
 	(label "IO26"
 		(at 101.6 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2429,7 +2268,6 @@
 	)
 	(label "IO15"
 		(at 213.36 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,7 +2278,6 @@
 	)
 	(label "ADC_VREF"
 		(at 149.86 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2288,6 @@
 	)
 	(label "IO6"
 		(at 213.36 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2462,7 +2298,6 @@
 	)
 	(label "IO27"
 		(at 149.86 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2473,7 +2308,6 @@
 	)
 	(label "IO0"
 		(at 50.8 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2484,7 +2318,6 @@
 	)
 	(label "IO21"
 		(at 213.36 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2495,7 +2328,6 @@
 	)
 	(label "IO28"
 		(at 149.86 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2338,6 @@
 	)
 	(label "IO26"
 		(at 149.86 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,7 +2348,6 @@
 	)
 	(label "IO3"
 		(at 149.86 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2358,6 @@
 	)
 	(label "IO20"
 		(at 213.36 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2539,7 +2368,6 @@
 	)
 	(label "IO7"
 		(at 50.8 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,7 +2378,6 @@
 	)
 	(label "IO2"
 		(at 50.8 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2561,7 +2388,6 @@
 	)
 	(label "IO14"
 		(at 213.36 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +2398,6 @@
 	)
 	(label "IO14"
 		(at 50.8 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2583,7 +2408,6 @@
 	)
 	(label "IO12"
 		(at 213.36 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,7 +2418,6 @@
 	)
 	(label "IO0"
 		(at 149.86 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +2428,6 @@
 	)
 	(label "IO20"
 		(at 101.6 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2438,6 @@
 	)
 	(label "IO16"
 		(at 213.36 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2627,7 +2448,6 @@
 	)
 	(label "IO27"
 		(at 101.6 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2458,6 @@
 	)
 	(label "IO6"
 		(at 50.8 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,7 +2468,6 @@
 	)
 	(label "IO1"
 		(at 50.8 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,7 +2478,6 @@
 	)
 	(label "IO16"
 		(at 101.6 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2671,7 +2488,6 @@
 	)
 	(label "IO1"
 		(at 149.86 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,7 +2498,6 @@
 	)
 	(label "IO9"
 		(at 213.36 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2693,7 +2508,6 @@
 	)
 	(label "IO2"
 		(at 149.86 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,7 +2518,6 @@
 	)
 	(label "IO4"
 		(at 149.86 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +2528,6 @@
 	)
 	(label "RUN"
 		(at 50.8 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,7 +2538,6 @@
 	)
 	(label "IO12"
 		(at 50.8 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,7 +2548,6 @@
 	)
 	(label "IO15"
 		(at 50.8 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,7 +2558,6 @@
 	)
 	(label "IO11"
 		(at 213.36 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2759,7 +2568,6 @@
 	)
 	(label "IO18"
 		(at 213.36 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2770,7 +2578,6 @@
 	)
 	(label "IO5"
 		(at 50.8 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,7 +2588,6 @@
 	)
 	(label "IO19"
 		(at 101.6 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2792,7 +2598,6 @@
 	)
 	(label "IO7"
 		(at 213.36 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2803,7 +2608,6 @@
 	)
 	(label "IO13"
 		(at 213.36 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,7 +2618,6 @@
 	)
 	(label "IO4"
 		(at 50.8 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2825,7 +2628,6 @@
 	)
 	(label "RUN"
 		(at 76.2 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2834,20 +2636,8 @@
 		)
 		(uuid "a28a6601-ae29-4cfe-b53b-e0a1600dcc92")
 	)
-	(label "3V3_EN"
-		(at 139.7 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5da4804-b68a-44f6-b904-183fc62e89a4")
-	)
 	(label "IO19"
 		(at 213.36 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,7 +2648,6 @@
 	)
 	(label "IO8"
 		(at 50.8 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2869,7 +2658,6 @@
 	)
 	(label "IO21"
 		(at 101.6 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2880,7 +2668,6 @@
 	)
 	(label "IO22"
 		(at 101.6 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2891,7 +2678,6 @@
 	)
 	(label "IO9"
 		(at 50.8 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2902,7 +2688,6 @@
 	)
 	(label "IO28"
 		(at 101.6 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2913,7 +2698,6 @@
 	)
 	(label "3V3_EN"
 		(at 50.8 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,20 +2706,8 @@
 		)
 		(uuid "cb6a8bd6-4245-4c32-8da8-2e82832fc7f8")
 	)
-	(label "RUN"
-		(at 114.3 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc4ff383-b50d-43d1-87f9-8c6b4dfbc68c")
-	)
 	(label "IO22"
 		(at 149.86 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2946,7 +2718,6 @@
 	)
 	(label "IO10"
 		(at 213.36 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,7 +2728,6 @@
 	)
 	(label "IO10"
 		(at 50.8 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2968,7 +2738,6 @@
 	)
 	(label "IO17"
 		(at 101.6 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2979,7 +2748,6 @@
 	)
 	(label "ADC_VREF"
 		(at 101.6 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +2758,6 @@
 	)
 	(label "IO18"
 		(at 101.6 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3001,7 +2768,6 @@
 	)
 	(label "3V3_EN"
 		(at 76.2 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3012,7 +2778,6 @@
 	)
 	(label "IO5"
 		(at 149.86 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3023,7 +2788,6 @@
 	)
 	(label "IO11"
 		(at 50.8 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3034,7 +2798,6 @@
 	)
 	(label "IO13"
 		(at 50.8 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,74 +2940,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d01db97-ffb3-48e0-9dd2-96ce7e608434")
-		(property "Reference" "#PWR07"
-			(at 114.3 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "388579c8-5ea3-4bad-ba02-072496b3d935")
-		)
-		(instances
-			(project "pico-plc"
-				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 158.75 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3253,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "210bce7c-ed7d-4b41-b3e0-7b8f05b49f3f")
 		(property "Reference" "H4"
-			(at 256.54 157.4799 0)
+			(at 256.54 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +2959,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 160.0199 0)
+			(at 256.54 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,8 +2967,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 158.75 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +2977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 158.75 0)
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,14 +2985,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 158.75 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "83c7d2ca-8b28-4885-aeb2-5d62fe9f07ca")
 		)
 		(instances
 			(project "pico-plc"
@@ -3308,16 +3008,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 180.34 0)
+		(at 254 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2c660a75-54d9-40d6-9971-3c30de02a89b")
-		(property "Reference" "#PWR0140"
-			(at 139.7 186.69 0)
+		(uuid "248298f7-292b-4e09-8790-e97c463e83d0")
+		(property "Reference" "#PWR011"
+			(at 254 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 185.42 0)
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 180.34 0)
+			(at 254 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 180.34 0)
+			(at 254 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 180.34 0)
+			(at 254 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,12 +3061,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "85c09c32-c1cd-495f-8df2-a08ddad5a602")
+			(uuid "7732655d-00da-4373-9d29-91a3f372e727")
 		)
 		(instances
 			(project "pico-plc"
 				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "#PWR0140")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3437,8 +3137,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 139.7 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 134.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3447,7 +3147,7 @@
 		(fields_autoplaced yes)
 		(uuid "4232763b-694c-4204-8c64-3f76a02ce032")
 		(property "Reference" "H1"
-			(at 256.54 138.4299 0)
+			(at 231.14 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3156,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 140.9699 0)
+			(at 231.14 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,8 +3164,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 139.7 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 139.7 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,14 +3182,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 139.7 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "23d3acdf-5b14-47ba-83d1-91896cfd34f3")
 		)
 		(instances
 			(project ""
@@ -3685,8 +3388,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 152.4 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3695,7 +3398,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fdff7ba-2a66-42d9-be18-19baa605d80b")
 		(property "Reference" "H3"
-			(at 256.54 151.1299 0)
+			(at 231.14 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3407,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 153.6699 0)
+			(at 231.14 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,8 +3415,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 152.4 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 152.4 0)
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,14 +3433,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 152.4 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "9754cd80-1875-4b22-9599-59280f6f0958")
 		)
 		(instances
 			(project "pico-plc"
@@ -3749,35 +3455,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 139.7 171.45 90)
+		(lib_id "power:GND")
+		(at 228.6 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60186984-5734-474e-9a92-53fc7745d0a1")
-		(property "Reference" "SW2"
-			(at 140.97 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Power Cycle"
-			(at 140.97 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 134.62 171.45 0)
+		(uuid "90a7ea07-ad27-49dd-99c8-32ac02f9c18d")
+		(property "Reference" "#PWR014"
+			(at 228.6 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,8 +3473,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 171.45 0)
+		(property "Value" "GND"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,8 +3490,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 139.7 171.45 0)
+		(property "Datasheet" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,15 +3509,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f032028-875f-40dd-96b6-31734067993b")
-		)
-		(pin "2"
-			(uuid "20744031-d7bf-4538-9fd4-5769cd2e0f9a")
+			(uuid "92790e54-1c1f-4088-a8ee-81d52a52399c")
 		)
 		(instances
 			(project "pico-plc"
 				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "SW2")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4016,8 +3718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 146.05 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 134.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4026,7 +3728,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0987ed0-d6d2-4f3e-9a79-e862c841e5db")
 		(property "Reference" "H2"
-			(at 256.54 144.7799 0)
+			(at 256.54 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +3737,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 147.3199 0)
+			(at 256.54 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,8 +3745,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 146.05 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +3755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 146.05 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,72 +3763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pico-plc"
-				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 114.3 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef894432-011e-4311-b052-e3bf27db2bf9")
-		(property "Reference" "SW1"
-			(at 115.57 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Reset"
-			(at 115.57 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 171.45 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,15 +3773,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "66e1e2b4-04ae-4c5b-a46e-ef3a98042c89")
-		)
-		(pin "2"
-			(uuid "eba2bc01-cb7c-46f9-aa9c-1e853fbc3f10")
+			(uuid "b626d88e-06f2-4570-a802-730051951c92")
 		)
 		(instances
-			(project ""
+			(project "pico-plc"
 				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "SW1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
