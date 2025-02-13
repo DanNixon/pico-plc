@@ -1260,7 +1260,6 @@
 	)
 	(label "COM"
 		(at 97.79 78.74 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +1270,6 @@
 	)
 	(label "SIG"
 		(at 97.79 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1283,7 +1281,6 @@
 	(hierarchical_label "Signal"
 		(shape output)
 		(at 203.2 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1792,7 +1789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 83.82 78.74 0)
 			(effects
 				(font
