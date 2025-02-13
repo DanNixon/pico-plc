@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.camdenboss.com/camden-boss/ctb70003-cut-to-length-terminal-blocks%2c-pcb-rising-clamp-terminal-blocks/c-23/p-19838"
 		(at -2.5 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
