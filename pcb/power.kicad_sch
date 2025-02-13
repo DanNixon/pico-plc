@@ -1267,7 +1267,6 @@
 	)
 	(label "Power In"
 		(at 203.2 63.5 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 71.12 50.8 0)
 			(effects
 				(font
@@ -2248,7 +2247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 71.12 127 0)
 			(effects
 				(font
@@ -3192,7 +3191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -3663,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 71.12 101.6 0)
 			(effects
 				(font
@@ -3866,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 71.12 76.2 0)
 			(effects
 				(font
@@ -4000,7 +3999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Conn_ScrewTerminals:ED5552DS"
+		(property "Footprint" "Conn_ScrewTerminals:CTB7000-2"
 			(at 185.42 53.34 0)
 			(effects
 				(font

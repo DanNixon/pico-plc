@@ -2385,7 +2385,6 @@
 	)
 	(label "IO17"
 		(at 213.36 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,7 +2395,6 @@
 	)
 	(label "IO8"
 		(at 213.36 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2407,7 +2405,6 @@
 	)
 	(label "IO3"
 		(at 50.8 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2418,7 +2415,6 @@
 	)
 	(label "IO26"
 		(at 101.6 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2429,7 +2425,6 @@
 	)
 	(label "IO15"
 		(at 213.36 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,7 +2435,6 @@
 	)
 	(label "ADC_VREF"
 		(at 149.86 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2445,6 @@
 	)
 	(label "IO6"
 		(at 213.36 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2462,7 +2455,6 @@
 	)
 	(label "IO27"
 		(at 149.86 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2473,7 +2465,6 @@
 	)
 	(label "IO0"
 		(at 50.8 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2484,7 +2475,6 @@
 	)
 	(label "IO21"
 		(at 213.36 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2495,7 +2485,6 @@
 	)
 	(label "IO28"
 		(at 149.86 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2495,6 @@
 	)
 	(label "IO26"
 		(at 149.86 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,7 +2505,6 @@
 	)
 	(label "IO3"
 		(at 149.86 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2515,6 @@
 	)
 	(label "IO20"
 		(at 213.36 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2539,7 +2525,6 @@
 	)
 	(label "IO7"
 		(at 50.8 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,7 +2535,6 @@
 	)
 	(label "IO2"
 		(at 50.8 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2561,7 +2545,6 @@
 	)
 	(label "IO14"
 		(at 213.36 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +2555,6 @@
 	)
 	(label "IO14"
 		(at 50.8 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2583,7 +2565,6 @@
 	)
 	(label "IO12"
 		(at 213.36 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,7 +2575,6 @@
 	)
 	(label "IO0"
 		(at 149.86 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +2585,6 @@
 	)
 	(label "IO20"
 		(at 101.6 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2595,6 @@
 	)
 	(label "IO16"
 		(at 213.36 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2627,7 +2605,6 @@
 	)
 	(label "IO27"
 		(at 101.6 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2615,6 @@
 	)
 	(label "IO6"
 		(at 50.8 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2649,7 +2625,6 @@
 	)
 	(label "IO1"
 		(at 50.8 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,7 +2635,6 @@
 	)
 	(label "IO16"
 		(at 101.6 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2671,7 +2645,6 @@
 	)
 	(label "IO1"
 		(at 149.86 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,7 +2655,6 @@
 	)
 	(label "IO9"
 		(at 213.36 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2693,7 +2665,6 @@
 	)
 	(label "IO2"
 		(at 149.86 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,7 +2675,6 @@
 	)
 	(label "IO4"
 		(at 149.86 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,7 +2685,6 @@
 	)
 	(label "RUN"
 		(at 50.8 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,7 +2695,6 @@
 	)
 	(label "IO12"
 		(at 50.8 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,7 +2705,6 @@
 	)
 	(label "IO15"
 		(at 50.8 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2748,7 +2715,6 @@
 	)
 	(label "IO11"
 		(at 213.36 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2759,7 +2725,6 @@
 	)
 	(label "IO18"
 		(at 213.36 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2770,7 +2735,6 @@
 	)
 	(label "IO5"
 		(at 50.8 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,7 +2745,6 @@
 	)
 	(label "IO19"
 		(at 101.6 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2792,7 +2755,6 @@
 	)
 	(label "IO7"
 		(at 213.36 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2803,7 +2765,6 @@
 	)
 	(label "IO13"
 		(at 213.36 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,7 +2775,6 @@
 	)
 	(label "IO4"
 		(at 50.8 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2825,7 +2785,6 @@
 	)
 	(label "RUN"
 		(at 76.2 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,7 +2795,6 @@
 	)
 	(label "3V3_EN"
 		(at 139.7 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,7 +2805,6 @@
 	)
 	(label "IO19"
 		(at 213.36 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,7 +2815,6 @@
 	)
 	(label "IO8"
 		(at 50.8 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2869,7 +2825,6 @@
 	)
 	(label "IO21"
 		(at 101.6 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2880,7 +2835,6 @@
 	)
 	(label "IO22"
 		(at 101.6 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2891,7 +2845,6 @@
 	)
 	(label "IO9"
 		(at 50.8 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2902,7 +2855,6 @@
 	)
 	(label "IO28"
 		(at 101.6 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2913,7 +2865,6 @@
 	)
 	(label "3V3_EN"
 		(at 50.8 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +2875,6 @@
 	)
 	(label "RUN"
 		(at 114.3 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2935,7 +2885,6 @@
 	)
 	(label "IO22"
 		(at 149.86 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2946,7 +2895,6 @@
 	)
 	(label "IO10"
 		(at 213.36 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,7 +2905,6 @@
 	)
 	(label "IO10"
 		(at 50.8 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2968,7 +2915,6 @@
 	)
 	(label "IO17"
 		(at 101.6 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2979,7 +2925,6 @@
 	)
 	(label "ADC_VREF"
 		(at 101.6 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +2935,6 @@
 	)
 	(label "IO18"
 		(at 101.6 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3001,7 +2945,6 @@
 	)
 	(label "3V3_EN"
 		(at 76.2 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3012,7 +2955,6 @@
 	)
 	(label "IO5"
 		(at 149.86 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3023,7 +2965,6 @@
 	)
 	(label "IO11"
 		(at 50.8 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3034,7 +2975,6 @@
 	)
 	(label "IO13"
 		(at 50.8 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -88,7 +88,6 @@
 	(hierarchical_label "Relay 5"
 		(shape input)
 		(at 60.96 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -100,7 +99,6 @@
 	(hierarchical_label "Relay 3"
 		(shape input)
 		(at 60.96 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -112,7 +110,6 @@
 	(hierarchical_label "Relay 8"
 		(shape input)
 		(at 60.96 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,7 +121,6 @@
 	(hierarchical_label "Relay 2"
 		(shape input)
 		(at 60.96 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -136,7 +132,6 @@
 	(hierarchical_label "Relay 1"
 		(shape input)
 		(at 60.96 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -148,7 +143,6 @@
 	(hierarchical_label "Relay 6"
 		(shape input)
 		(at 60.96 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -160,7 +154,6 @@
 	(hierarchical_label "Relay 7"
 		(shape input)
 		(at 60.96 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -172,7 +165,6 @@
 	(hierarchical_label "Relay 4"
 		(shape input)
 		(at 60.96 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
