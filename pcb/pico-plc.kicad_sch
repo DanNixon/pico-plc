@@ -107,23 +107,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -148,7 +148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -166,7 +166,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -175,9 +175,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -185,6 +185,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1780,8 +1800,16 @@
 		)
 	)
 	(no_connect
+		(at 228.6 156.21)
+		(uuid "3488e492-4293-4ed4-897d-dd9212590ffd")
+	)
+	(no_connect
 		(at 81.28 48.26)
 		(uuid "8235294f-6dbd-4280-9599-1064db6050a9")
+	)
+	(no_connect
+		(at 254 156.21)
+		(uuid "e9019ed7-d4c4-4d4d-bba9-ca398395be58")
 	)
 	(wire
 		(pts
@@ -3183,8 +3211,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 158.75 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3193,7 +3221,7 @@
 		(fields_autoplaced yes)
 		(uuid "210bce7c-ed7d-4b41-b3e0-7b8f05b49f3f")
 		(property "Reference" "H4"
-			(at 256.54 157.4799 0)
+			(at 256.54 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3230,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 160.0199 0)
+			(at 256.54 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,8 +3238,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 158.75 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 158.75 0)
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,19 +3256,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 158.75 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "83c7d2ca-8b28-4885-aeb2-5d62fe9f07ca")
 		)
 		(instances
 			(project "pico-plc"
 				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "248298f7-292b-4e09-8790-e97c463e83d0")
+		(property "Reference" "#PWR011"
+			(at 254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7732655d-00da-4373-9d29-91a3f372e727")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3377,8 +3474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 139.7 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 134.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3387,7 +3484,7 @@
 		(fields_autoplaced yes)
 		(uuid "4232763b-694c-4204-8c64-3f76a02ce032")
 		(property "Reference" "H1"
-			(at 256.54 138.4299 0)
+			(at 231.14 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3493,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 140.9699 0)
+			(at 231.14 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,8 +3501,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 139.7 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 139.7 0)
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,14 +3519,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 139.7 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "23d3acdf-5b14-47ba-83d1-91896cfd34f3")
 		)
 		(instances
 			(project ""
@@ -3625,8 +3725,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 152.4 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 153.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3635,7 +3735,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fdff7ba-2a66-42d9-be18-19baa605d80b")
 		(property "Reference" "H3"
-			(at 256.54 151.1299 0)
+			(at 231.14 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3744,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 153.6699 0)
+			(at 231.14 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,8 +3752,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 152.4 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 152.4 0)
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,14 +3770,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 152.4 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "9754cd80-1875-4b22-9599-59280f6f0958")
 		)
 		(instances
 			(project "pico-plc"
@@ -3753,6 +3856,72 @@
 			(project "pico-plc"
 				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a7ea07-ad27-49dd-99c8-32ac02f9c18d")
+		(property "Reference" "#PWR014"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92790e54-1c1f-4088-a8ee-81d52a52399c")
+		)
+		(instances
+			(project "pico-plc"
+				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3956,8 +4125,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 254 146.05 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 134.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3966,7 +4135,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0987ed0-d6d2-4f3e-9a79-e862c841e5db")
 		(property "Reference" "H2"
-			(at 256.54 144.7799 0)
+			(at 256.54 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +4144,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 147.3199 0)
+			(at 256.54 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,8 +4152,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 254 146.05 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 146.05 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,14 +4170,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 254 146.05 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "b626d88e-06f2-4570-a802-730051951c92")
 		)
 		(instances
 			(project "pico-plc"
