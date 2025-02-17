@@ -14,6 +14,7 @@ use embassy_time::{Duration, Ticker, Timer};
 use one_wire_bus::OneWire;
 #[cfg(feature = "panic-probe")]
 use panic_probe as _;
+use portable_atomic as _;
 use static_cell::StaticCell;
 
 #[cfg(not(feature = "panic-probe"))]
