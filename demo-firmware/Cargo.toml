@@ -6,11 +6,14 @@ edition = "2021"
 license = "MIT"
 
 [features]
+default = []
+rp2040 = ["embassy-rp/rp2040"]
+# rp235x = ["embassy-rp/rp235x"]
 panic-probe = ["dep:panic-probe"]
 
 [dependencies]
 cortex-m-rt = "0.7.5"
-embassy-rp = { version = "0.3.1", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl", "rp2040"] }
+embassy-rp = { version = "0.3.1", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
 
 embassy-executor = { version = "0.7.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt"] }
 embassy-time = "0.4.0"
