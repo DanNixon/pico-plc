@@ -344,7 +344,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -627,7 +627,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/26984477-6e52-4ef7-808d-c592db2e12dc/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 0")
+		(sheetname "/Opto Inputs/Input 0/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -783,7 +783,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/1bdd2078-8570-4ad6-9003-b4e5009e5511/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 7")
+		(sheetname "/Opto Inputs/Input 7/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1049,7 +1049,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1504,7 +1504,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/667b20f8-8208-4378-b414-ce6a81d13b84")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1759,7 +1759,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2042,7 +2042,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2209,7 +2209,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/fdf1e83c-cb6c-4463-8418-1d25a179c909/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 2")
+		(sheetname "/Opto Inputs/Input 2/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2432,7 +2432,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2715,7 +2715,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2997,7 +2997,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3252,7 +3252,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/a9cb0a94-4e79-4a1b-9d76-c170745af398/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 3")
+		(sheetname "/Opto Inputs/Input 3/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3475,7 +3475,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/c880fe79-66fb-4f0a-981b-0f1be715f955/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 6")
+		(sheetname "/Opto Inputs/Input 6/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3631,7 +3631,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/27836c18-a776-4fbb-9d0d-9425c37cbc67/fcf4c6ed-6d0d-4fb9-a8fa-ad4c964d71f4")
-		(sheetname "Configurable Level Shifter IO4")
+		(sheetname "/General IO/Configurable Level Shifter IO4/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -3885,7 +3885,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/27836c18-a776-4fbb-9d0d-9425c37cbc67/23a78805-d68d-4360-adad-536460ac104d")
-		(sheetname "Configurable Level Shifter IO4")
+		(sheetname "/General IO/Configurable Level Shifter IO4/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4086,7 +4086,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/56f612e4-f8df-4a29-a4b3-cc593e9a40a1/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 5")
+		(sheetname "/Opto Inputs/Input 5/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4242,7 +4242,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/a9cb0a94-4e79-4a1b-9d76-c170745af398/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 3")
+		(sheetname "/Opto Inputs/Input 3/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4398,7 +4398,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/1bdd2078-8570-4ad6-9003-b4e5009e5511/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 7")
+		(sheetname "/Opto Inputs/Input 7/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4995,7 +4995,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -5249,7 +5249,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/a9cb0a94-4e79-4a1b-9d76-c170745af398/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 3")
+		(sheetname "/Opto Inputs/Input 3/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5450,7 +5450,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/41233123-d0bb-4504-988d-344ca09ddc46/d9b69f4e-0134-4335-a8b7-a608fcec01ad")
-		(sheetname "OneWire")
+		(sheetname "/OneWire/")
 		(sheetfile "onewire.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5716,7 +5716,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/1bdd2078-8570-4ad6-9003-b4e5009e5511/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 7")
+		(sheetname "/Opto Inputs/Input 7/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5939,7 +5939,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6140,7 +6140,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/a9cb0a94-4e79-4a1b-9d76-c170745af398/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 3")
+		(sheetname "/Opto Inputs/Input 3/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6341,7 +6341,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/41233123-d0bb-4504-988d-344ca09ddc46/a255f25f-1cfe-42ef-9dd4-fe4d0a609b92")
-		(sheetname "OneWire")
+		(sheetname "/OneWire/")
 		(sheetfile "onewire.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6607,7 +6607,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6774,7 +6774,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/8f6201dc-3cba-4b0f-8d2c-d32ddcc7c4f1/996e2e54-0971-44cb-b4dd-bb7327772f7b")
-		(sheetname "Configurable Level Shifter IO5")
+		(sheetname "/General IO/Configurable Level Shifter IO5/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6975,7 +6975,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/26984477-6e52-4ef7-808d-c592db2e12dc/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 0")
+		(sheetname "/Opto Inputs/Input 0/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7198,7 +7198,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 1")
+		(sheetname "/Opto Inputs/Input 1/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7354,7 +7354,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4fdff7ba-2a66-42d9-be18-19baa605d80b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -7555,7 +7555,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7756,7 +7756,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/77ea1673-a597-4954-a86a-85da7195f7a6/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 4")
+		(sheetname "/Opto Inputs/Input 4/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7979,7 +7979,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/93f57b7a-b7d0-4b61-8bea-84c33c882d08/23a78805-d68d-4360-adad-536460ac104d")
-		(sheetname "Configurable Level Shifter IO3")
+		(sheetname "/General IO/Configurable Level Shifter IO3/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8180,7 +8180,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/27836c18-a776-4fbb-9d0d-9425c37cbc67/b9c86cb1-2263-4a27-9a30-246ca0ce76c5")
-		(sheetname "Configurable Level Shifter IO4")
+		(sheetname "/General IO/Configurable Level Shifter IO4/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8435,7 +8435,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/2bbf0a58-2102-4457-a4dd-d19efab333a7")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8658,7 +8658,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9112,7 +9112,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9367,7 +9367,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9590,7 +9590,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/c880fe79-66fb-4f0a-981b-0f1be715f955/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 6")
+		(sheetname "/Opto Inputs/Input 6/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9791,7 +9791,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9958,7 +9958,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10212,7 +10212,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10466,7 +10466,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10720,7 +10720,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5d3c784-aa87-431a-be1b-abf13173e0b8/fcf4c6ed-6d0d-4fb9-a8fa-ad4c964d71f4")
-		(sheetname "Configurable Level Shifter IO2")
+		(sheetname "/General IO/Configurable Level Shifter IO2/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -10974,7 +10974,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5072fa2-620c-4ba1-8a52-f9dc93dbc0ea/fcf4c6ed-6d0d-4fb9-a8fa-ad4c964d71f4")
-		(sheetname "Configurable Level Shifter IO0")
+		(sheetname "/General IO/Configurable Level Shifter IO0/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -11228,7 +11228,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/c880fe79-66fb-4f0a-981b-0f1be715f955/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 6")
+		(sheetname "/Opto Inputs/Input 6/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11451,7 +11451,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/a4d98226-1a1c-402d-a8c4-54b9a2374637/996e2e54-0971-44cb-b4dd-bb7327772f7b")
-		(sheetname "Configurable Level Shifter IO1")
+		(sheetname "/General IO/Configurable Level Shifter IO1/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11652,7 +11652,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5072fa2-620c-4ba1-8a52-f9dc93dbc0ea/23a78805-d68d-4360-adad-536460ac104d")
-		(sheetname "Configurable Level Shifter IO0")
+		(sheetname "/General IO/Configurable Level Shifter IO0/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11853,7 +11853,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c4e67310-57cf-403e-84d7-709b6b95afe1")
-		(sheetname "General IO")
+		(sheetname "/General IO/")
 		(sheetfile "general_io.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12151,7 +12151,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12406,7 +12406,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12607,7 +12607,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5072fa2-620c-4ba1-8a52-f9dc93dbc0ea/b9c86cb1-2263-4a27-9a30-246ca0ce76c5")
-		(sheetname "Configurable Level Shifter IO0")
+		(sheetname "/General IO/Configurable Level Shifter IO0/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12862,7 +12862,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -13116,7 +13116,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/194686c7-c317-4fc7-bd94-346146df9072")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13399,7 +13399,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/56f612e4-f8df-4a29-a4b3-cc593e9a40a1/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 5")
+		(sheetname "/Opto Inputs/Input 5/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13665,7 +13665,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13866,7 +13866,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/1bdd2078-8570-4ad6-9003-b4e5009e5511/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 7")
+		(sheetname "/Opto Inputs/Input 7/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14067,7 +14067,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14290,7 +14290,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5d3c784-aa87-431a-be1b-abf13173e0b8/996e2e54-0971-44cb-b4dd-bb7327772f7b")
-		(sheetname "Configurable Level Shifter IO2")
+		(sheetname "/General IO/Configurable Level Shifter IO2/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14491,7 +14491,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/1bdd2078-8570-4ad6-9003-b4e5009e5511/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 7")
+		(sheetname "/Opto Inputs/Input 7/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14692,7 +14692,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14975,7 +14975,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4232763b-694c-4204-8c64-3f76a02ce032")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -15176,7 +15176,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15377,7 +15377,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/fdf1e83c-cb6c-4463-8418-1d25a179c909/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 2")
+		(sheetname "/Opto Inputs/Input 2/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15533,7 +15533,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/dac0cc97-89ff-4699-9ed0-66b77266293f")
-		(sheetname "General IO")
+		(sheetname "/General IO/")
 		(sheetfile "general_io.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15918,7 +15918,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/6a299d6f-3294-45dd-8d99-5ad0f1b6eeb9")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16074,7 +16074,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16297,7 +16297,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5d3c784-aa87-431a-be1b-abf13173e0b8/23a78805-d68d-4360-adad-536460ac104d")
-		(sheetname "Configurable Level Shifter IO2")
+		(sheetname "/General IO/Configurable Level Shifter IO2/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16498,7 +16498,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16699,7 +16699,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16982,7 +16982,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/a4d98226-1a1c-402d-a8c4-54b9a2374637/fcf4c6ed-6d0d-4fb9-a8fa-ad4c964d71f4")
-		(sheetname "Configurable Level Shifter IO1")
+		(sheetname "/General IO/Configurable Level Shifter IO1/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -17235,7 +17235,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17490,7 +17490,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -17945,7 +17945,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18112,7 +18112,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/77ea1673-a597-4954-a86a-85da7195f7a6/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 4")
+		(sheetname "/Opto Inputs/Input 4/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -18366,7 +18366,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18567,7 +18567,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/ea92e372-fb21-4e74-b437-187f45ae98c1")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -18723,7 +18723,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/8f6201dc-3cba-4b0f-8d2c-d32ddcc7c4f1/b9c86cb1-2263-4a27-9a30-246ca0ce76c5")
-		(sheetname "Configurable Level Shifter IO5")
+		(sheetname "/General IO/Configurable Level Shifter IO5/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18978,7 +18978,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/fdf1e83c-cb6c-4463-8418-1d25a179c909/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 2")
+		(sheetname "/Opto Inputs/Input 2/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19179,7 +19179,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/8f6201dc-3cba-4b0f-8d2c-d32ddcc7c4f1/fcf4c6ed-6d0d-4fb9-a8fa-ad4c964d71f4")
-		(sheetname "Configurable Level Shifter IO5")
+		(sheetname "/General IO/Configurable Level Shifter IO5/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -19433,7 +19433,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19634,7 +19634,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19835,7 +19835,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5072fa2-620c-4ba1-8a52-f9dc93dbc0ea/996e2e54-0971-44cb-b4dd-bb7327772f7b")
-		(sheetname "Configurable Level Shifter IO0")
+		(sheetname "/General IO/Configurable Level Shifter IO0/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20036,7 +20036,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20237,7 +20237,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/77ea1673-a597-4954-a86a-85da7195f7a6/670b7311-d3a5-4fda-8dc7-3b3a32c6f174")
-		(sheetname "Input 4")
+		(sheetname "/Opto Inputs/Input 4/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -20393,7 +20393,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/fdf1e83c-cb6c-4463-8418-1d25a179c909/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 2")
+		(sheetname "/Opto Inputs/Input 2/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20594,7 +20594,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/26984477-6e52-4ef7-808d-c592db2e12dc/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 0")
+		(sheetname "/Opto Inputs/Input 0/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -20848,7 +20848,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 1")
+		(sheetname "/Opto Inputs/Input 1/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21049,7 +21049,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -21303,7 +21303,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21504,7 +21504,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/210bce7c-ed7d-4b41-b3e0-7b8f05b49f3f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -21705,7 +21705,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -21958,7 +21958,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22213,7 +22213,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22380,7 +22380,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22581,7 +22581,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/fb15a955-1e50-4c18-805b-6b8d1ecdede1")
-		(sheetname "General IO")
+		(sheetname "/General IO/")
 		(sheetfile "general_io.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22880,7 +22880,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -23335,7 +23335,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23617,7 +23617,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23871,7 +23871,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24126,7 +24126,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24349,7 +24349,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/fdf1e83c-cb6c-4463-8418-1d25a179c909/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 2")
+		(sheetname "/Opto Inputs/Input 2/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -24603,7 +24603,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 1")
+		(sheetname "/Opto Inputs/Input 1/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24826,7 +24826,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/78b530c1-a742-48ae-8558-412fee117e98")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -24982,7 +24982,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/a4d98226-1a1c-402d-a8c4-54b9a2374637/b9c86cb1-2263-4a27-9a30-246ca0ce76c5")
-		(sheetname "Configurable Level Shifter IO1")
+		(sheetname "/General IO/Configurable Level Shifter IO1/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25237,7 +25237,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25438,7 +25438,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/41233123-d0bb-4504-988d-344ca09ddc46/ace0bd56-3b49-469b-b07d-d5b8e5432b58")
-		(sheetname "OneWire")
+		(sheetname "/OneWire/")
 		(sheetfile "onewire.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25639,7 +25639,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/c880fe79-66fb-4f0a-981b-0f1be715f955/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 6")
+		(sheetname "/Opto Inputs/Input 6/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -25893,7 +25893,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26116,7 +26116,7 @@
 		)
 		(property ki_fp_filters "RaspberryPi?Pico?Common* RaspberryPi?Pico?Original*")
 		(path "/4345ece5-fcff-40f0-aeb9-a07f8bf95e32")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -30256,7 +30256,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/56f612e4-f8df-4a29-a4b3-cc593e9a40a1/f7b6ee29-1a13-496e-894f-5a7b916665b1")
-		(sheetname "Input 5")
+		(sheetname "/Opto Inputs/Input 5/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30479,7 +30479,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/a9cb0a94-4e79-4a1b-9d76-c170745af398/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 3")
+		(sheetname "/Opto Inputs/Input 3/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -30733,7 +30733,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/25773917-8a2d-428e-ae76-a9dd27752e8a")
-		(sheetname "General IO")
+		(sheetname "/General IO/")
 		(sheetfile "general_io.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -31032,7 +31032,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31233,7 +31233,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/a4d98226-1a1c-402d-a8c4-54b9a2374637/23a78805-d68d-4360-adad-536460ac104d")
-		(sheetname "Configurable Level Shifter IO1")
+		(sheetname "/General IO/Configurable Level Shifter IO1/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31434,7 +31434,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31635,7 +31635,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -32089,7 +32089,7 @@
 			)
 		)
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/fe196447-c2e4-4da4-95ea-6ff5e3151fc6")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32344,7 +32344,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/c5d3c784-aa87-431a-be1b-abf13173e0b8/b9c86cb1-2263-4a27-9a30-246ca0ce76c5")
-		(sheetname "Configurable Level Shifter IO2")
+		(sheetname "/General IO/Configurable Level Shifter IO2/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32599,7 +32599,7 @@
 		)
 		(property ki_fp_filters "TO*92*")
 		(path "/41233123-d0bb-4504-988d-344ca09ddc46/880fe7db-d272-457b-940d-ff9e519e6557")
-		(sheetname "OneWire")
+		(sheetname "/OneWire/")
 		(sheetfile "onewire.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -32841,7 +32841,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/93f57b7a-b7d0-4b61-8bea-84c33c882d08/b9c86cb1-2263-4a27-9a30-246ca0ce76c5")
-		(sheetname "Configurable Level Shifter IO3")
+		(sheetname "/General IO/Configurable Level Shifter IO3/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33096,7 +33096,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/c880fe79-66fb-4f0a-981b-0f1be715f955/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 6")
+		(sheetname "/Opto Inputs/Input 6/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33362,7 +33362,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/27836c18-a776-4fbb-9d0d-9425c37cbc67/996e2e54-0971-44cb-b4dd-bb7327772f7b")
-		(sheetname "Configurable Level Shifter IO4")
+		(sheetname "/General IO/Configurable Level Shifter IO4/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33563,7 +33563,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33764,7 +33764,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33965,7 +33965,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/77ea1673-a597-4954-a86a-85da7195f7a6/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 4")
+		(sheetname "/Opto Inputs/Input 4/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34166,7 +34166,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -34621,7 +34621,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -34788,7 +34788,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/9999e760-32a4-456c-949e-48b48f741e76/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 2")
+		(sheetname "/Relays/Relay 2/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -34955,7 +34955,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/41233123-d0bb-4504-988d-344ca09ddc46/ff94e0cb-081d-4ca8-b644-2396ab62987d")
-		(sheetname "OneWire")
+		(sheetname "/OneWire/")
 		(sheetfile "onewire.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35156,7 +35156,7 @@
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c0987ed0-d6d2-4f3e-9a79-e862c841e5db")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -35357,7 +35357,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/93f57b7a-b7d0-4b61-8bea-84c33c882d08/fcf4c6ed-6d0d-4fb9-a8fa-ad4c964d71f4")
-		(sheetname "Configurable Level Shifter IO3")
+		(sheetname "/General IO/Configurable Level Shifter IO3/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -35611,7 +35611,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/93f57b7a-b7d0-4b61-8bea-84c33c882d08/996e2e54-0971-44cb-b4dd-bb7327772f7b")
-		(sheetname "Configurable Level Shifter IO3")
+		(sheetname "/General IO/Configurable Level Shifter IO3/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35812,7 +35812,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/56f612e4-f8df-4a29-a4b3-cc593e9a40a1/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 5")
+		(sheetname "/Opto Inputs/Input 5/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -36066,7 +36066,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/a9cb0a94-4e79-4a1b-9d76-c170745af398/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 3")
+		(sheetname "/Opto Inputs/Input 3/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36332,7 +36332,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/26984477-6e52-4ef7-808d-c592db2e12dc/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 0")
+		(sheetname "/Opto Inputs/Input 0/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36533,7 +36533,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/26984477-6e52-4ef7-808d-c592db2e12dc/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 0")
+		(sheetname "/Opto Inputs/Input 0/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36799,7 +36799,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/77ea1673-a597-4954-a86a-85da7195f7a6/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 4")
+		(sheetname "/Opto Inputs/Input 4/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37000,7 +37000,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/26984477-6e52-4ef7-808d-c592db2e12dc/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 0")
+		(sheetname "/Opto Inputs/Input 0/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37201,7 +37201,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/fdf1e83c-cb6c-4463-8418-1d25a179c909/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 2")
+		(sheetname "/Opto Inputs/Input 2/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37467,7 +37467,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/d3dcd614-8906-4094-9ee8-0c2e79a9a8a6")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37668,7 +37668,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37869,7 +37869,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38092,7 +38092,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 1")
+		(sheetname "/Opto Inputs/Input 1/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38358,7 +38358,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/c880fe79-66fb-4f0a-981b-0f1be715f955/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 6")
+		(sheetname "/Opto Inputs/Input 6/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38559,7 +38559,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/41233123-d0bb-4504-988d-344ca09ddc46/1ed477d2-3454-44d2-af03-bf68943eddbb")
-		(sheetname "OneWire")
+		(sheetname "/OneWire/")
 		(sheetfile "onewire.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38814,7 +38814,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 1")
+		(sheetname "/Opto Inputs/Input 1/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -39068,7 +39068,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/56f612e4-f8df-4a29-a4b3-cc593e9a40a1/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 5")
+		(sheetname "/Opto Inputs/Input 5/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39269,7 +39269,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/9c923b1d-5c83-410d-8d13-13b630568362")
-		(sheetname "General IO")
+		(sheetname "/General IO/")
 		(sheetfile "general_io.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -39654,7 +39654,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/6b8d9b27-0c27-41a4-a011-6da9dd5ad3f5/927765e7-8ff0-4549-ab2e-027d1cdc9746")
-		(sheetname "Input 1")
+		(sheetname "/Opto Inputs/Input 1/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39855,7 +39855,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5c846b94-d131-421d-a0b8-8ac063d97814/8f6201dc-3cba-4b0f-8d2c-d32ddcc7c4f1/23a78805-d68d-4360-adad-536460ac104d")
-		(sheetname "Configurable Level Shifter IO5")
+		(sheetname "/General IO/Configurable Level Shifter IO5/")
 		(sheetfile "configurable_level_shifter.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40056,7 +40056,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/1bdd2078-8570-4ad6-9003-b4e5009e5511/126b55df-49cd-46d1-a6b6-8c32a2f64c15")
-		(sheetname "Input 7")
+		(sheetname "/Opto Inputs/Input 7/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -40310,7 +40310,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/9b3a62b7-bc7d-4bca-9d86-7b59b3ed4025")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40593,7 +40593,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/56f612e4-f8df-4a29-a4b3-cc593e9a40a1/313d2178-9eeb-40f9-8e74-60ae69fb2387")
-		(sheetname "Input 5")
+		(sheetname "/Opto Inputs/Input 5/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40794,7 +40794,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41017,7 +41017,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/deb9888e-c268-4ded-861f-5076c0fa6975")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41240,7 +41240,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/33ac5d4e-3b23-4259-a36f-c0550a1eadaa")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41463,7 +41463,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41664,7 +41664,7 @@
 		)
 		(property ki_fp_filters "DIP*W7.62mm* DIP*W10.16mm* SMDIP*W7.62mm* SMDIP*W9.53mm* SMDIP*W11.48mm*")
 		(path "/9c980951-c203-443f-a19c-7cd136718808/77ea1673-a597-4954-a86a-85da7195f7a6/de2bcc97-0570-4dc1-b0ff-8525b9884136")
-		(sheetname "Input 4")
+		(sheetname "/Opto Inputs/Input 4/")
 		(sheetfile "opto_input.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41930,7 +41930,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42131,7 +42131,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fe25513e-b908-4f4a-beb6-d8cfa254527d/da7036b0-e9a1-4dc4-8625-05491437b4ba")
-		(sheetname "Relay 3")
+		(sheetname "/Relays/Relay 3/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42332,7 +42332,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/8d3ba362-3b92-45f3-9060-730beedd8499/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 5")
+		(sheetname "/Relays/Relay 5/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42533,7 +42533,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/fbd8dd50-415f-4c7a-8435-67461a0abf61/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 0")
+		(sheetname "/Relays/Relay 0/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -42988,7 +42988,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/2c58b59c-2cd5-47e4-9eda-4a9e325a61aa")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -43242,7 +43242,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a6819c3a-222f-4740-a2ec-9f8244800196/6a13e641-4d0f-42b0-837f-d5e7175ef2a5")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43443,7 +43443,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/96f92402-c7b7-4dc5-a9ff-0af65a03efd2/2410e479-4e46-4618-b716-bfe2ef6643b5")
-		(sheetname "Relay 6")
+		(sheetname "/Relays/Relay 6/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43644,7 +43644,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d40337d4-8a6b-49e2-ab5e-01b05c1c8443/ff2b0835-f127-4678-b918-208758a5ee9b")
-		(sheetname "Relay 7")
+		(sheetname "/Relays/Relay 7/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43845,7 +43845,7 @@
 		)
 		(property ki_fp_filters "Relay?SPDT*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/d16c5b7f-0576-4119-88d6-02fdf5409e99/7f9e32f5-11ef-43f1-8513-189e781c5908")
-		(sheetname "Relay 1")
+		(sheetname "/Relays/Relay 1/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -44300,7 +44300,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/04ede582-ad77-44e8-a7e8-28b2ed118ac8/e4c5e140-4a91-44ab-87ca-e134dccbaaf6/da843abd-0846-483c-9264-e832e7f0d6b9")
-		(sheetname "Relay 4")
+		(sheetname "/Relays/Relay 4/")
 		(sheetfile "relay_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -44471,7 +44471,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/37f525b6-252a-49a9-9dc1-67f5b11775ca")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -44579,7 +44579,7 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ad8e1d7c-ca63-4389-8eba-12418a7d3c4c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "pico-plc.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
