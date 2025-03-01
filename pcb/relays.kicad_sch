@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "73d16da3-65c9-40ab-8eb0-3a9e99c4c735")
 	(paper "A4")
 	(lib_symbols)
@@ -176,6 +176,10 @@
 	(sheet
 		(at 63.5 101.6)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -205,13 +209,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 104.14 180)
+			(uuid "be7448e4-c70d-4b8a-b83a-d00a33e503c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "be7448e4-c70d-4b8a-b83a-d00a33e503c6")
 		)
 		(instances
 			(project "pico-plc"
@@ -224,6 +228,10 @@
 	(sheet
 		(at 63.5 114.3)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -253,13 +261,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 116.84 180)
+			(uuid "3f95b000-e9b9-4bf5-a08d-ea4d0481bdaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3f95b000-e9b9-4bf5-a08d-ea4d0481bdaa")
 		)
 		(instances
 			(project "pico-plc"
@@ -272,6 +280,10 @@
 	(sheet
 		(at 63.5 63.5)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -301,13 +313,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 66.04 180)
+			(uuid "4869f46b-86a4-4364-b636-3037b902fb1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4869f46b-86a4-4364-b636-3037b902fb1e")
 		)
 		(instances
 			(project "pico-plc"
@@ -320,6 +332,10 @@
 	(sheet
 		(at 63.5 50.8)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -349,13 +365,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 53.34 180)
+			(uuid "ef2d05f7-a826-49e2-8183-f092cf9e64e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ef2d05f7-a826-49e2-8183-f092cf9e64e8")
 		)
 		(instances
 			(project "pico-plc"
@@ -368,6 +384,10 @@
 	(sheet
 		(at 63.5 128.27)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -397,13 +417,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 130.81 180)
+			(uuid "09c1d7cc-713b-4f7d-9ee6-1027e1ee6e6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "09c1d7cc-713b-4f7d-9ee6-1027e1ee6e6d")
 		)
 		(instances
 			(project "pico-plc"
@@ -416,6 +436,10 @@
 	(sheet
 		(at 63.5 88.9)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -445,13 +469,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 91.44 180)
+			(uuid "6f1e40b2-7a7a-410c-9224-6c6a90a32a58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6f1e40b2-7a7a-410c-9224-6c6a90a32a58")
 		)
 		(instances
 			(project "pico-plc"
@@ -464,6 +488,10 @@
 	(sheet
 		(at 63.5 38.1)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -493,13 +521,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 40.64 180)
+			(uuid "ddebcb77-b8fe-4c92-94fd-ff5183996cd0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ddebcb77-b8fe-4c92-94fd-ff5183996cd0")
 		)
 		(instances
 			(project "pico-plc"
@@ -512,6 +540,10 @@
 	(sheet
 		(at 63.5 76.2)
 		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -541,13 +573,13 @@
 		)
 		(pin "Signal" input
 			(at 63.5 78.74 180)
+			(uuid "972e18fb-2068-4671-b4db-13827ae9a185")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "972e18fb-2068-4671-b4db-13827ae9a185")
 		)
 		(instances
 			(project "pico-plc"
