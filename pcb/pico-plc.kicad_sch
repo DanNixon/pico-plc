@@ -1696,6 +1696,14 @@
 		(uuid "3488e492-4293-4ed4-897d-dd9212590ffd")
 	)
 	(no_connect
+		(at 228.6 137.16)
+		(uuid "36321cad-41e8-490c-9b73-75f2bf416280")
+	)
+	(no_connect
+		(at 254 137.16)
+		(uuid "816e05d4-ac6f-4f6b-8409-308ca48cdc81")
+	)
+	(no_connect
 		(at 81.28 48.26)
 		(uuid "8235294f-6dbd-4280-9599-1064db6050a9")
 	)
@@ -3044,72 +3052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 254 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "248298f7-292b-4e09-8790-e97c463e83d0")
-		(property "Reference" "#PWR011"
-			(at 254 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7732655d-00da-4373-9d29-91a3f372e727")
-		)
-		(instances
-			(project "pico-plc"
-				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 76.2 165.1 90)
 		(unit 1)
@@ -3486,72 +3428,6 @@
 			(project "pico-plc"
 				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90a7ea07-ad27-49dd-99c8-32ac02f9c18d")
-		(property "Reference" "#PWR014"
-			(at 228.6 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92790e54-1c1f-4088-a8ee-81d52a52399c")
-		)
-		(instances
-			(project "pico-plc"
-				(path "/fc9ff52a-d720-4efe-8661-3db6c88a54e4"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
