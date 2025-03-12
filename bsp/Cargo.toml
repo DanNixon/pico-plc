@@ -1,0 +1,10 @@
+[package]
+name = "pico-plc-bsp"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dan Nixon <dan@dan-nixon.com>"]
+license = "MIT"
+
+[dependencies]
+embassy-rp = { version = "0.3.1", features = ["rp2040"] }
+one-wire-bus = "0.1.1"
