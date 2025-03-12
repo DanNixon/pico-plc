@@ -1,29 +1,24 @@
 [package]
-name = "pico-plc-demo-firmware"
+name = "pico-plc-kitchen-sink-example"
 version = "0.1.0"
-authors = ["Dan Nixon <dan@dan-nixon.com>"]
 edition = "2021"
+authors = ["Dan Nixon <dan@dan-nixon.com>"]
 license = "MIT"
-
-[features]
-panic-probe = ["dep:panic-probe"]
 
 [dependencies]
 cortex-m-rt = "0.7.5"
 embassy-rp = { version = "0.3.1", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl", "rp2040"] }
+pico-plc-bsp = { path = "../../" }
+assign-resources = "0.4.1"
+portable-atomic = { version = "1.10.0", features = ["critical-section"] }
 
 embassy-executor = { version = "0.7.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt"] }
 embassy-time = "0.4.0"
 
 defmt = "0.3.10"
 defmt-rtt = "0.4.1"
-panic-probe = { version = "0.3.2", features = ["print-defmt"], optional = true }
+panic-probe = { version = "0.3.2", features = ["print-defmt"] }
 
-embassy-sync = "0.6.2"
-portable-atomic = { version = "1.10.0", features = ["critical-section"] }
-static_cell = "2.1.0"
-
-one-wire-bus = "0.1.1"
 ds18b20 = "0.1.1"
 
 [profile.release]
