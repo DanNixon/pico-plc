@@ -1,3 +1,5 @@
+use embassy_rp::{config::Config, Peripherals};
+
 // Non renamed re-exported peripherals
 pub use embassy_rp::peripherals::{
     ADC, ADC_TEMP_SENSOR, BOOTSEL, CORE1, DMA_CH0, DMA_CH1, DMA_CH10, DMA_CH11, DMA_CH2, DMA_CH3,
@@ -28,6 +30,7 @@ pub use embassy_rp::peripherals::{
 // Renamed onewire bus pin
 pub use embassy_rp::peripherals::PIN_22 as ONEWIRE;
 
+/// Struct containing peripherals, appropriately named for the Pico-PLC board.
 #[allow(non_snake_case)]
 pub struct PicoPlc {
     pub IO_0: IO_0,
@@ -115,8 +118,20 @@ impl Default for PicoPlc {
 }
 
 impl PicoPlc {
-    pub fn new(config: embassy_rp::config::Config) -> Self {
+    pub fn new(config: Config) -> Self {
         let p = embassy_rp::init(config);
+        Self::from_peripherals(p)
+    }
+
+    /// # Safety
+    ///
+    /// OK providing that only one instance of `PicoPlc` exists.
+    pub unsafe fn steal() -> Self {
+        let p = Peripherals::steal();
+        Self::from_peripherals(p)
+    }
+
+    fn from_peripherals(p: Peripherals) -> Self {
         Self {
             IO_0: p.PIN_0,
             IO_1: p.PIN_1,
