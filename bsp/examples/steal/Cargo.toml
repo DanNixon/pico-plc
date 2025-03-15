@@ -7,7 +7,7 @@ license = "MIT"
 
 [dependencies]
 cortex-m-rt = "0.7.5"
-embassy-rp = { version = "0.3.1", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl", "rp2040"] }
+embassy-rp = { version = "0.4.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl", "rp2040"] }
 pico-plc-bsp = { path = "../../" }
 portable-atomic = { version = "1.10.0", features = ["critical-section"] }
 
