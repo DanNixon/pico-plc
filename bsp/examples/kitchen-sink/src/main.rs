@@ -8,7 +8,7 @@ use embassy_executor::Spawner;
 use embassy_rp::gpio::{Input, Level, Output, Pull};
 use embassy_time::{Delay, Duration, Ticker, Timer};
 use panic_probe as _;
-use pico_plc_bsp::peripherals;
+use pico_plc_bsp::peripherals::{self, PicoPlc};
 use portable_atomic as _;
 
 assign_resources! {
@@ -47,7 +47,7 @@ assign_resources! {
 
 #[embassy_executor::main]
 async fn main(spawner: Spawner) {
-    let p = pico_plc_bsp::peripherals::PicoPlc::default();
+    let p = PicoPlc::default();
     let r = split_resources!(p);
 
     let led = Output::new(p.PIN_25, Level::Low);
