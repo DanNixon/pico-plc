@@ -568,17 +568,39 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/General IO/Configurable Level Shifter IO0/V": "IO Power",
-      "/General IO/Configurable Level Shifter IO2/V": "IO Power",
-      "/General IO/Configurable Level Shifter IO3/V": "IO Power",
-      "/General IO/Configurable Level Shifter IO4/V": "IO Power",
-      "/General IO/Configurable Level Shifter IO5/V": "IO Power",
-      "/General IO/IO0_V": "IO Power",
-      "/General IO/IO1_V": "IO Power",
-      "/General IO/IO2_V": "IO Power",
-      "/General IO/IO3_V": "IO Power",
-      "/General IO/IO4_V": "IO Power",
-      "/General IO/IO5_V": "IO Power",
+      "/General IO/Configurable Level Shifter IO0/V": [
+        "IO Power"
+      ],
+      "/General IO/Configurable Level Shifter IO2/V": [
+        "IO Power"
+      ],
+      "/General IO/Configurable Level Shifter IO3/V": [
+        "IO Power"
+      ],
+      "/General IO/Configurable Level Shifter IO4/V": [
+        "IO Power"
+      ],
+      "/General IO/Configurable Level Shifter IO5/V": [
+        "IO Power"
+      ],
+      "/General IO/IO0_V": [
+        "IO Power"
+      ],
+      "/General IO/IO1_V": [
+        "IO Power"
+      ],
+      "/General IO/IO2_V": [
+        "IO Power"
+      ],
+      "/General IO/IO3_V": [
+        "IO Power"
+      ],
+      "/General IO/IO4_V": [
+        "IO Power"
+      ],
+      "/General IO/IO5_V": [
+        "IO Power"
+      ],
       "/Opto Inputs/Input 0/COM": [
         "Isolated Inputs"
       ],
@@ -699,34 +721,90 @@
       "/Relays/Relay 7/NO": [
         "Relay Switched"
       ],
-      "Net-(JP1-A)": "Isolated Inputs",
-      "Net-(JP2-A)": "Isolated Inputs",
-      "Net-(JP29-A)": "Isolated Inputs",
-      "Net-(JP29-C)": "Isolated Inputs",
-      "Net-(JP30-C)": "Isolated Inputs",
-      "Net-(JP32-A)": "Isolated Inputs",
-      "Net-(JP32-B)": "Isolated Inputs",
-      "Net-(JP32-C)": "Isolated Inputs",
-      "Net-(JP33-B)": "Isolated Inputs",
-      "Net-(JP33-C)": "Isolated Inputs",
-      "Net-(JP35-A)": "Isolated Inputs",
-      "Net-(JP35-B)": "Isolated Inputs",
-      "Net-(JP35-C)": "Isolated Inputs",
-      "Net-(JP36-B)": "Isolated Inputs",
-      "Net-(JP36-C)": "Isolated Inputs",
-      "Net-(JP38-A)": "Isolated Inputs",
-      "Net-(JP38-B)": "Isolated Inputs",
-      "Net-(JP38-C)": "Isolated Inputs",
-      "Net-(JP39-B)": "Isolated Inputs",
-      "Net-(JP39-C)": "Isolated Inputs",
-      "Net-(JP41-A)": "Isolated Inputs",
-      "Net-(JP42-C)": "Isolated Inputs",
-      "Net-(JP44-A)": "Isolated Inputs",
-      "Net-(JP45-C)": "Isolated Inputs",
-      "Net-(JP47-A)": "Isolated Inputs",
-      "Net-(JP48-C)": "Isolated Inputs",
-      "Net-(JP50-A)": "Isolated Inputs",
-      "Net-(JP51-C)": "Isolated Inputs",
+      "Net-(JP1-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP2-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP29-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP29-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP30-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP32-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP32-B)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP32-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP33-B)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP33-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP35-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP35-B)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP35-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP36-B)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP36-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP38-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP38-B)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP38-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP39-B)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP39-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP41-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP42-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP44-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP45-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP47-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP48-C)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP50-A)": [
+        "Isolated Inputs"
+      ],
+      "Net-(JP51-C)": [
+        "Isolated Inputs"
+      ],
       "Net-(R49-Pad2)": [
         "Isolated Inputs"
       ],
@@ -751,14 +829,30 @@
       "Net-(R63-Pad2)": [
         "Isolated Inputs"
       ],
-      "unconnected-(U2-Pad2)": "Isolated Inputs",
-      "unconnected-(U3-Pad2)": "Isolated Inputs",
-      "unconnected-(U4-Pad2)": "Isolated Inputs",
-      "unconnected-(U5-Pad2)": "Isolated Inputs",
-      "unconnected-(U6-Pad2)": "Isolated Inputs",
-      "unconnected-(U7-Pad2)": "Isolated Inputs",
-      "unconnected-(U8-Pad2)": "Isolated Inputs",
-      "unconnected-(U9-Pad2)": "Isolated Inputs"
+      "unconnected-(U2-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U3-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U4-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U5-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U6-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U7-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U8-Pad2)": [
+        "Isolated Inputs"
+      ],
+      "unconnected-(U9-Pad2)": [
+        "Isolated Inputs"
+      ]
     },
     "netclass_patterns": []
   },
@@ -772,7 +866,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../pico-plc.wrl"
     },
     "page_layout_descr_file": ""
   },
