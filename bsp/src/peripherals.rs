@@ -10,6 +10,12 @@ pub use embassy_rp::peripherals::{
     WATCHDOG,
 };
 
+#[cfg(feature = "rp235xa")]
+pub use embassy_rp::peripherals::{
+    DMA_CH12, DMA_CH13, DMA_CH14, DMA_CH15, PIO2, PWM_SLICE10, PWM_SLICE11, PWM_SLICE8, PWM_SLICE9,
+    TRNG,
+};
+
 // Renamed IO pins
 pub use embassy_rp::peripherals::{
     PIN_0 as IO_0, PIN_1 as IO_1, PIN_2 as IO_2, PIN_3 as IO_3, PIN_4 as IO_4, PIN_5 as IO_5,
@@ -67,18 +73,23 @@ pub struct PicoPlc {
     pub PIN_27: PIN_27,
     pub PIN_28: PIN_28,
     pub PIN_29: PIN_29,
+
     pub PIN_QSPI_SCLK: PIN_QSPI_SCLK,
     pub PIN_QSPI_SS: PIN_QSPI_SS,
     pub PIN_QSPI_SD0: PIN_QSPI_SD0,
     pub PIN_QSPI_SD1: PIN_QSPI_SD1,
     pub PIN_QSPI_SD2: PIN_QSPI_SD2,
     pub PIN_QSPI_SD3: PIN_QSPI_SD3,
+
     pub UART0: UART0,
     pub UART1: UART1,
+
     pub SPI0: SPI0,
     pub SPI1: SPI1,
+
     pub I2C0: I2C0,
     pub I2C1: I2C1,
+
     pub DMA_CH0: DMA_CH0,
     pub DMA_CH1: DMA_CH1,
     pub DMA_CH2: DMA_CH2,
@@ -91,6 +102,15 @@ pub struct PicoPlc {
     pub DMA_CH9: DMA_CH9,
     pub DMA_CH10: DMA_CH10,
     pub DMA_CH11: DMA_CH11,
+    #[cfg(feature = "rp235xa")]
+    pub DMA_CH12: DMA_CH12,
+    #[cfg(feature = "rp235xa")]
+    pub DMA_CH13: DMA_CH13,
+    #[cfg(feature = "rp235xa")]
+    pub DMA_CH14: DMA_CH14,
+    #[cfg(feature = "rp235xa")]
+    pub DMA_CH15: DMA_CH15,
+
     pub PWM_SLICE0: PWM_SLICE0,
     pub PWM_SLICE1: PWM_SLICE1,
     pub PWM_SLICE2: PWM_SLICE2,
@@ -99,16 +119,37 @@ pub struct PicoPlc {
     pub PWM_SLICE5: PWM_SLICE5,
     pub PWM_SLICE6: PWM_SLICE6,
     pub PWM_SLICE7: PWM_SLICE7,
+    #[cfg(feature = "rp235xa")]
+    pub PWM_SLICE8: PWM_SLICE8,
+    #[cfg(feature = "rp235xa")]
+    pub PWM_SLICE9: PWM_SLICE9,
+    #[cfg(feature = "rp235xa")]
+    pub PWM_SLICE10: PWM_SLICE10,
+    #[cfg(feature = "rp235xa")]
+    pub PWM_SLICE11: PWM_SLICE11,
+
     pub USB: USB,
+
     pub RTC: RTC,
+
     pub FLASH: FLASH,
+
     pub ADC: ADC,
     pub ADC_TEMP_SENSOR: ADC_TEMP_SENSOR,
+
     pub CORE1: CORE1,
+
     pub PIO0: PIO0,
     pub PIO1: PIO1,
+    #[cfg(feature = "rp235xa")]
+    pub PIO2: PIO2,
+
     pub WATCHDOG: WATCHDOG,
+
     pub BOOTSEL: BOOTSEL,
+
+    #[cfg(feature = "rp235xa")]
+    pub TRNG: TRNG,
 }
 
 impl Default for PicoPlc {
@@ -187,6 +228,14 @@ impl PicoPlc {
             DMA_CH9: p.DMA_CH9,
             DMA_CH10: p.DMA_CH10,
             DMA_CH11: p.DMA_CH11,
+            #[cfg(feature = "rp235xa")]
+            DMA_CH12: p.DMA_CH12,
+            #[cfg(feature = "rp235xa")]
+            DMA_CH13: p.DMA_CH13,
+            #[cfg(feature = "rp235xa")]
+            DMA_CH14: p.DMA_CH14,
+            #[cfg(feature = "rp235xa")]
+            DMA_CH15: p.DMA_CH15,
             PWM_SLICE0: p.PWM_SLICE0,
             PWM_SLICE1: p.PWM_SLICE1,
             PWM_SLICE2: p.PWM_SLICE2,
@@ -195,6 +244,14 @@ impl PicoPlc {
             PWM_SLICE5: p.PWM_SLICE5,
             PWM_SLICE6: p.PWM_SLICE6,
             PWM_SLICE7: p.PWM_SLICE7,
+            #[cfg(feature = "rp235xa")]
+            PWM_SLICE8: p.PWM_SLICE8,
+            #[cfg(feature = "rp235xa")]
+            PWM_SLICE9: p.PWM_SLICE9,
+            #[cfg(feature = "rp235xa")]
+            PWM_SLICE10: p.PWM_SLICE10,
+            #[cfg(feature = "rp235xa")]
+            PWM_SLICE11: p.PWM_SLICE11,
             USB: p.USB,
             RTC: p.RTC,
             FLASH: p.FLASH,
@@ -203,8 +260,12 @@ impl PicoPlc {
             CORE1: p.CORE1,
             PIO0: p.PIO0,
             PIO1: p.PIO1,
+            #[cfg(feature = "rp235xa")]
+            PIO2: p.PIO2,
             WATCHDOG: p.WATCHDOG,
             BOOTSEL: p.BOOTSEL,
+            #[cfg(feature = "rp235xa")]
+            TRNG: p.TRNG,
         }
     }
 }

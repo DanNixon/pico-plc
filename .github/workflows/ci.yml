@@ -42,23 +42,36 @@ jobs:
       - name: Install devenv.sh
         run: nix profile install nixpkgs#devenv
 
-      - name: Add Rust target
+      - name: Add Rust targets
         shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
           rustup target add thumbv6m-none-eabi
+          rustup target add thumbv8m.main-none-eabihf
 
-      - name: Clippy
+      - name: Clippy (rp2040)
         shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
-          cargo clippy -- -D warnings
+          cargo clippy --target thumbv6m-none-eabi -F rp2040 -- -D warnings
 
-      - name: Build
+      - name: Clippy (rp235xa)
         shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
-          cargo build
+          cargo clippy --target thumbv8m.main-none-eabihf -F rp235xa -- -D warnings
+
+      - name: Build (rp2040)
+        shell: devenv shell bash -- -e {0}
+        run: |
+          cd ./bsp
+          cargo build --target thumbv6m-none-eabi -F rp2040
+
+      - name: Build (rp235xa)
+        shell: devenv shell bash -- -e {0}
+        run: |
+          cd ./bsp
+          cargo build --target thumbv8m.main-none-eabihf -F rp235xa
 
   examples:
     name: Examples
@@ -69,8 +82,9 @@ jobs:
     strategy:
       matrix:
         example:
-          - "kitchen-sink"
-          - "steal"
+          - "kitchen-sink-rp2040"
+          - "kitchen-sink-rp235xa"
+          - "steal-rp2040"
 
     steps:
       - uses: actions/checkout@v4
@@ -86,6 +100,7 @@ jobs:
         run: |
           cd ./bsp/examples/${{ matrix.example }}
           rustup target add thumbv6m-none-eabi
+          rustup target add thumbv8m.main-none-eabihf
 
       - name: Clippy
         shell: devenv shell bash -- -e {0}

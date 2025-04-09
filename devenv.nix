@@ -1,4 +1,10 @@
-{pkgs, ...}: {
+{
+  pkgs,
+  inputs,
+  ...
+}: let
+  pkgs-unstable = import inputs.nixpkgs-unstable {system = pkgs.stdenv.system;};
+in {
   packages = with pkgs; [
     # Code formatting tools
     treefmt
@@ -8,6 +14,6 @@
 
     # Rust toolchain
     rustup
-    probe-rs
+    pkgs-unstable.probe-rs
   ];
 }
