@@ -1,4 +1,5 @@
 [toolchain]
 channel = "1.85"
 components = ["rust-src", "clippy", "rust-analyzer"]
+targets = ["thumbv6m-none-eabi", "thumbv8m.main-none-eabihf"]
 profile = "minimal"
