@@ -7,15 +7,11 @@ license = "MIT"
 
 [dependencies]
 cortex-m-rt = "0.7.5"
-embassy-rp = { version = "0.4.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
-pico-plc-bsp = { path = "../../", features = ["rp2040"] }
-portable-atomic = { version = "1.10.0", features = ["critical-section"] }
-
-embassy-executor = { version = "0.7.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt"] }
-embassy-time = "0.4.0"
-
 defmt = "1.0.1"
 defmt-rtt = "1.0.0"
+embassy-executor = { version = "0.7.0", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt"] }
+embassy-time = "0.4.0"
+pico-plc-bsp = { path = "../../", features = ["rp2040"] }
 
 [profile.release]
 debug = 2

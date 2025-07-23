@@ -5,11 +5,12 @@ use assign_resources::assign_resources;
 use defmt::{debug, info, unwrap};
 use defmt_rtt as _;
 use embassy_executor::Spawner;
-use embassy_rp::gpio::{Input, Level, Output, Pull};
 use embassy_time::{Delay, Duration, Ticker, Timer};
 use panic_probe as _;
-use pico_plc_bsp::peripherals::{self, PicoPlc};
-use portable_atomic as _;
+use pico_plc_bsp::{
+    embassy_rp::gpio::{Input, Level, Output, Pull},
+    peripherals::{self, Peri, PicoPlc},
+};
 
 assign_resources! {
     io: IoPinResources {

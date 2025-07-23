@@ -36,120 +36,122 @@ pub use embassy_rp::peripherals::{
 // Renamed onewire bus pin
 pub use embassy_rp::peripherals::PIN_22 as ONEWIRE;
 
+pub use embassy_rp::Peri;
+
 /// Struct containing peripherals, appropriately named for the Pico-PLC board.
 #[allow(non_snake_case)]
 pub struct PicoPlc {
-    pub IO_0: IO_0,
-    pub IO_1: IO_1,
-    pub IO_2: IO_2,
-    pub IO_3: IO_3,
-    pub IO_4: IO_4,
-    pub IO_5: IO_5,
+    pub IO_0: Peri<'static, IO_0>,
+    pub IO_1: Peri<'static, IO_1>,
+    pub IO_2: Peri<'static, IO_2>,
+    pub IO_3: Peri<'static, IO_3>,
+    pub IO_4: Peri<'static, IO_4>,
+    pub IO_5: Peri<'static, IO_5>,
 
-    pub IN_0: IN_0,
-    pub IN_1: IN_1,
-    pub IN_2: IN_2,
-    pub IN_3: IN_3,
-    pub IN_4: IN_4,
-    pub IN_5: IN_5,
-    pub IN_6: IN_6,
-    pub IN_7: IN_7,
+    pub IN_0: Peri<'static, IN_0>,
+    pub IN_1: Peri<'static, IN_1>,
+    pub IN_2: Peri<'static, IN_2>,
+    pub IN_3: Peri<'static, IN_3>,
+    pub IN_4: Peri<'static, IN_4>,
+    pub IN_5: Peri<'static, IN_5>,
+    pub IN_6: Peri<'static, IN_6>,
+    pub IN_7: Peri<'static, IN_7>,
 
-    pub RELAY_0: RELAY_0,
-    pub RELAY_1: RELAY_1,
-    pub RELAY_2: RELAY_2,
-    pub RELAY_3: RELAY_3,
-    pub RELAY_4: RELAY_4,
-    pub RELAY_5: RELAY_5,
-    pub RELAY_6: RELAY_6,
-    pub RELAY_7: RELAY_7,
+    pub RELAY_0: Peri<'static, RELAY_0>,
+    pub RELAY_1: Peri<'static, RELAY_1>,
+    pub RELAY_2: Peri<'static, RELAY_2>,
+    pub RELAY_3: Peri<'static, RELAY_3>,
+    pub RELAY_4: Peri<'static, RELAY_4>,
+    pub RELAY_5: Peri<'static, RELAY_5>,
+    pub RELAY_6: Peri<'static, RELAY_6>,
+    pub RELAY_7: Peri<'static, RELAY_7>,
 
-    pub ONEWIRE: ONEWIRE,
+    pub ONEWIRE: Peri<'static, ONEWIRE>,
 
-    pub PIN_23: PIN_23,
-    pub PIN_24: PIN_24,
-    pub PIN_25: PIN_25,
-    pub PIN_26: PIN_26,
-    pub PIN_27: PIN_27,
-    pub PIN_28: PIN_28,
-    pub PIN_29: PIN_29,
+    pub PIN_23: Peri<'static, PIN_23>,
+    pub PIN_24: Peri<'static, PIN_24>,
+    pub PIN_25: Peri<'static, PIN_25>,
+    pub PIN_26: Peri<'static, PIN_26>,
+    pub PIN_27: Peri<'static, PIN_27>,
+    pub PIN_28: Peri<'static, PIN_28>,
+    pub PIN_29: Peri<'static, PIN_29>,
 
-    pub PIN_QSPI_SCLK: PIN_QSPI_SCLK,
-    pub PIN_QSPI_SS: PIN_QSPI_SS,
-    pub PIN_QSPI_SD0: PIN_QSPI_SD0,
-    pub PIN_QSPI_SD1: PIN_QSPI_SD1,
-    pub PIN_QSPI_SD2: PIN_QSPI_SD2,
-    pub PIN_QSPI_SD3: PIN_QSPI_SD3,
+    pub PIN_QSPI_SCLK: Peri<'static, PIN_QSPI_SCLK>,
+    pub PIN_QSPI_SS: Peri<'static, PIN_QSPI_SS>,
+    pub PIN_QSPI_SD0: Peri<'static, PIN_QSPI_SD0>,
+    pub PIN_QSPI_SD1: Peri<'static, PIN_QSPI_SD1>,
+    pub PIN_QSPI_SD2: Peri<'static, PIN_QSPI_SD2>,
+    pub PIN_QSPI_SD3: Peri<'static, PIN_QSPI_SD3>,
 
-    pub UART0: UART0,
-    pub UART1: UART1,
+    pub UART0: Peri<'static, UART0>,
+    pub UART1: Peri<'static, UART1>,
 
-    pub SPI0: SPI0,
-    pub SPI1: SPI1,
+    pub SPI0: Peri<'static, SPI0>,
+    pub SPI1: Peri<'static, SPI1>,
 
-    pub I2C0: I2C0,
-    pub I2C1: I2C1,
+    pub I2C0: Peri<'static, I2C0>,
+    pub I2C1: Peri<'static, I2C1>,
 
-    pub DMA_CH0: DMA_CH0,
-    pub DMA_CH1: DMA_CH1,
-    pub DMA_CH2: DMA_CH2,
-    pub DMA_CH3: DMA_CH3,
-    pub DMA_CH4: DMA_CH4,
-    pub DMA_CH5: DMA_CH5,
-    pub DMA_CH6: DMA_CH6,
-    pub DMA_CH7: DMA_CH7,
-    pub DMA_CH8: DMA_CH8,
-    pub DMA_CH9: DMA_CH9,
-    pub DMA_CH10: DMA_CH10,
-    pub DMA_CH11: DMA_CH11,
+    pub DMA_CH0: Peri<'static, DMA_CH0>,
+    pub DMA_CH1: Peri<'static, DMA_CH1>,
+    pub DMA_CH2: Peri<'static, DMA_CH2>,
+    pub DMA_CH3: Peri<'static, DMA_CH3>,
+    pub DMA_CH4: Peri<'static, DMA_CH4>,
+    pub DMA_CH5: Peri<'static, DMA_CH5>,
+    pub DMA_CH6: Peri<'static, DMA_CH6>,
+    pub DMA_CH7: Peri<'static, DMA_CH7>,
+    pub DMA_CH8: Peri<'static, DMA_CH8>,
+    pub DMA_CH9: Peri<'static, DMA_CH9>,
+    pub DMA_CH10: Peri<'static, DMA_CH10>,
+    pub DMA_CH11: Peri<'static, DMA_CH11>,
     #[cfg(feature = "rp235xa")]
-    pub DMA_CH12: DMA_CH12,
+    pub DMA_CH12: Peri<'static, DMA_CH12>,
     #[cfg(feature = "rp235xa")]
-    pub DMA_CH13: DMA_CH13,
+    pub DMA_CH13: Peri<'static, DMA_CH13>,
     #[cfg(feature = "rp235xa")]
-    pub DMA_CH14: DMA_CH14,
+    pub DMA_CH14: Peri<'static, DMA_CH14>,
     #[cfg(feature = "rp235xa")]
-    pub DMA_CH15: DMA_CH15,
+    pub DMA_CH15: Peri<'static, DMA_CH15>,
 
-    pub PWM_SLICE0: PWM_SLICE0,
-    pub PWM_SLICE1: PWM_SLICE1,
-    pub PWM_SLICE2: PWM_SLICE2,
-    pub PWM_SLICE3: PWM_SLICE3,
-    pub PWM_SLICE4: PWM_SLICE4,
-    pub PWM_SLICE5: PWM_SLICE5,
-    pub PWM_SLICE6: PWM_SLICE6,
-    pub PWM_SLICE7: PWM_SLICE7,
+    pub PWM_SLICE0: Peri<'static, PWM_SLICE0>,
+    pub PWM_SLICE1: Peri<'static, PWM_SLICE1>,
+    pub PWM_SLICE2: Peri<'static, PWM_SLICE2>,
+    pub PWM_SLICE3: Peri<'static, PWM_SLICE3>,
+    pub PWM_SLICE4: Peri<'static, PWM_SLICE4>,
+    pub PWM_SLICE5: Peri<'static, PWM_SLICE5>,
+    pub PWM_SLICE6: Peri<'static, PWM_SLICE6>,
+    pub PWM_SLICE7: Peri<'static, PWM_SLICE7>,
     #[cfg(feature = "rp235xa")]
-    pub PWM_SLICE8: PWM_SLICE8,
+    pub PWM_SLICE8: Peri<'static, PWM_SLICE8>,
     #[cfg(feature = "rp235xa")]
-    pub PWM_SLICE9: PWM_SLICE9,
+    pub PWM_SLICE9: Peri<'static, PWM_SLICE9>,
     #[cfg(feature = "rp235xa")]
-    pub PWM_SLICE10: PWM_SLICE10,
+    pub PWM_SLICE10: Peri<'static, PWM_SLICE10>,
     #[cfg(feature = "rp235xa")]
-    pub PWM_SLICE11: PWM_SLICE11,
+    pub PWM_SLICE11: Peri<'static, PWM_SLICE11>,
 
-    pub USB: USB,
+    pub USB: Peri<'static, USB>,
 
-    pub RTC: RTC,
+    pub RTC: Peri<'static, RTC>,
 
-    pub FLASH: FLASH,
+    pub FLASH: Peri<'static, FLASH>,
 
-    pub ADC: ADC,
-    pub ADC_TEMP_SENSOR: ADC_TEMP_SENSOR,
+    pub ADC: Peri<'static, ADC>,
+    pub ADC_TEMP_SENSOR: Peri<'static, ADC_TEMP_SENSOR>,
 
-    pub CORE1: CORE1,
+    pub CORE1: Peri<'static, CORE1>,
 
-    pub PIO0: PIO0,
-    pub PIO1: PIO1,
+    pub PIO0: Peri<'static, PIO0>,
+    pub PIO1: Peri<'static, PIO1>,
     #[cfg(feature = "rp235xa")]
-    pub PIO2: PIO2,
+    pub PIO2: Peri<'static, PIO2>,
 
-    pub WATCHDOG: WATCHDOG,
+    pub WATCHDOG: Peri<'static, WATCHDOG>,
 
-    pub BOOTSEL: BOOTSEL,
+    pub BOOTSEL: Peri<'static, BOOTSEL>,
 
     #[cfg(feature = "rp235xa")]
-    pub TRNG: TRNG,
+    pub TRNG: Peri<'static, TRNG>,
 }
 
 impl Default for PicoPlc {
@@ -168,7 +170,7 @@ impl PicoPlc {
     ///
     /// OK providing that only one instance of `PicoPlc` exists.
     pub unsafe fn steal() -> Self {
-        let p = Peripherals::steal();
+        let p = unsafe { Peripherals::steal() };
         Self::from_peripherals(p)
     }
 
