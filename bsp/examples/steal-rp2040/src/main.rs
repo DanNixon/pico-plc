@@ -4,10 +4,11 @@
 use defmt::info;
 use defmt_rtt as _;
 use embassy_executor::Spawner;
-use embassy_rp::gpio::{Level, Output};
 use embassy_time::{Duration, Timer};
-use pico_plc_bsp::peripherals::PicoPlc;
-use portable_atomic as _;
+use pico_plc_bsp::{
+    embassy_rp::gpio::{Level, Output},
+    peripherals::PicoPlc,
+};
 
 #[panic_handler]
 fn panic(_info: &core::panic::PanicInfo) -> ! {
