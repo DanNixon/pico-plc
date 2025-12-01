@@ -8,6 +8,6 @@
 
     # Rust toolchain
     rustup
-    probe-rs
+    probe-rs-tools
   ];
 }
