@@ -10,6 +10,6 @@ rp2040 = ["embassy-rp/rp2040"]
 rp235xa = ["embassy-rp/rp235xa"]
 
 [dependencies]
-embassy-rp = { version = "0.8.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
+embassy-rp = { version = "0.9.0", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl"] }
 one-wire-bus = "0.1.1"
 portable-atomic = { version = "1.10.0", default-features = false, features = ["critical-section"] }
