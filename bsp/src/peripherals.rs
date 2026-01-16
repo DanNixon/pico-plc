@@ -1,9 +1,9 @@
-use embassy_rp::{config::Config, Peripherals};
+use embassy_rp::{Peripherals, config::Config};
 
 // Non renamed re-exported peripherals
 pub use embassy_rp::peripherals::{
-    ADC, ADC_TEMP_SENSOR, BOOTSEL, CORE1, DMA_CH0, DMA_CH1, DMA_CH10, DMA_CH11, DMA_CH2, DMA_CH3,
-    DMA_CH4, DMA_CH5, DMA_CH6, DMA_CH7, DMA_CH8, DMA_CH9, FLASH, I2C0, I2C1, PIN_23, PIN_24,
+    ADC, ADC_TEMP_SENSOR, BOOTSEL, CORE1, DMA_CH0, DMA_CH1, DMA_CH2, DMA_CH3, DMA_CH4, DMA_CH5,
+    DMA_CH6, DMA_CH7, DMA_CH8, DMA_CH9, DMA_CH10, DMA_CH11, FLASH, I2C0, I2C1, PIN_23, PIN_24,
     PIN_25, PIN_26, PIN_27, PIN_28, PIN_29, PIN_QSPI_SCLK, PIN_QSPI_SD0, PIN_QSPI_SD1,
     PIN_QSPI_SD2, PIN_QSPI_SD3, PIN_QSPI_SS, PIO0, PIO1, PWM_SLICE0, PWM_SLICE1, PWM_SLICE2,
     PWM_SLICE3, PWM_SLICE4, PWM_SLICE5, PWM_SLICE6, PWM_SLICE7, RTC, SPI0, SPI1, UART0, UART1, USB,
@@ -12,7 +12,7 @@ pub use embassy_rp::peripherals::{
 
 #[cfg(feature = "rp235xa")]
 pub use embassy_rp::peripherals::{
-    DMA_CH12, DMA_CH13, DMA_CH14, DMA_CH15, PIO2, PWM_SLICE10, PWM_SLICE11, PWM_SLICE8, PWM_SLICE9,
+    DMA_CH12, DMA_CH13, DMA_CH14, DMA_CH15, PIO2, PWM_SLICE8, PWM_SLICE9, PWM_SLICE10, PWM_SLICE11,
     TRNG,
 };
 
@@ -23,14 +23,14 @@ pub use embassy_rp::peripherals::{
 
 // Renamed input pins
 pub use embassy_rp::peripherals::{
-    PIN_10 as IN_5, PIN_11 as IN_4, PIN_12 as IN_3, PIN_13 as IN_2, PIN_14 as IN_1, PIN_15 as IN_0,
-    PIN_8 as IN_7, PIN_9 as IN_6,
+    PIN_8 as IN_7, PIN_9 as IN_6, PIN_10 as IN_5, PIN_11 as IN_4, PIN_12 as IN_3, PIN_13 as IN_2,
+    PIN_14 as IN_1, PIN_15 as IN_0,
 };
 
 // Renamed relay pins
 pub use embassy_rp::peripherals::{
-    PIN_16 as RELAY_2, PIN_17 as RELAY_3, PIN_18 as RELAY_4, PIN_19 as RELAY_5, PIN_20 as RELAY_6,
-    PIN_21 as RELAY_7, PIN_6 as RELAY_1, PIN_7 as RELAY_0,
+    PIN_6 as RELAY_1, PIN_7 as RELAY_0, PIN_16 as RELAY_2, PIN_17 as RELAY_3, PIN_18 as RELAY_4,
+    PIN_19 as RELAY_5, PIN_20 as RELAY_6, PIN_21 as RELAY_7,
 };
 
 // Renamed onewire bus pin

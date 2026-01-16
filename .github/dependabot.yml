@@ -2,41 +2,18 @@ version: 2
 
 updates:
   - package-ecosystem: github-actions
-    directory: "./"
+    directory: "."
     schedule:
-      interval: "monthly"
+      interval: quarterly
 
   - package-ecosystem: cargo
-    directory: "./bsp/"
+    directories:
+      - "./bsp/"
+      - "./bsp/examples/kitchen-sink-rp2040"
+      - "./bsp/examples/kitchen-sink-rp235xa"
+      - "./bsp/examples/steal-rp2040"
     schedule:
-      interval: "monthly"
-    groups:
-      cargo-dependencies:
-        patterns:
-          - "*"
-
-  - package-ecosystem: cargo
-    directory: "./bsp/examples/kitchen-sink-rp2040"
-    schedule:
-      interval: "monthly"
-    groups:
-      cargo-dependencies:
-        patterns:
-          - "*"
-
-  - package-ecosystem: cargo
-    directory: "./bsp/examples/kitchen-sink-rp235xa"
-    schedule:
-      interval: "monthly"
-    groups:
-      cargo-dependencies:
-        patterns:
-          - "*"
-
-  - package-ecosystem: cargo
-    directory: "./bsp/examples/steal-rp2040"
-    schedule:
-      interval: "monthly"
+      interval: quarterly
     groups:
       cargo-dependencies:
         patterns:

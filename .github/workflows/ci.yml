@@ -16,16 +16,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-      - uses: cachix/install-nix-action@v31
-      - uses: cachix/cachix-action@v16
-        with:
-          name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
+      - uses: DeterminateSystems/nix-installer-action@v21
 
       - name: Format
-        shell: devenv shell bash -- -e {0}
-        run: treefmt --fail-on-change
+        run: nix develop --command treefmt --fail-on-change
 
   bsp:
     name: BSP
@@ -35,36 +29,27 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-      - uses: cachix/install-nix-action@v31
-      - uses: cachix/cachix-action@v16
-        with:
-          name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
+      - uses: DeterminateSystems/nix-installer-action@v21
 
       - name: Clippy (rp2040)
-        shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
-          cargo clippy --target thumbv6m-none-eabi -F rp2040 -- -D warnings
+          nix develop --command cargo clippy --target thumbv6m-none-eabi -F rp2040 -- -D warnings
 
       - name: Clippy (rp235xa)
-        shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
-          cargo clippy --target thumbv8m.main-none-eabihf -F rp235xa -- -D warnings
+          nix develop --command cargo clippy --target thumbv8m.main-none-eabihf -F rp235xa -- -D warnings
 
       - name: Build (rp2040)
-        shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
-          cargo build --target thumbv6m-none-eabi -F rp2040
+          nix develop --command cargo build --target thumbv6m-none-eabi -F rp2040
 
       - name: Build (rp235xa)
-        shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp
-          cargo build --target thumbv8m.main-none-eabihf -F rp235xa
+          nix develop --command cargo build --target thumbv8m.main-none-eabihf -F rp235xa
 
   examples:
     name: Examples
@@ -81,21 +66,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-      - uses: cachix/install-nix-action@v31
-      - uses: cachix/cachix-action@v16
-        with:
-          name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
+      - uses: DeterminateSystems/nix-installer-action@v21
 
       - name: Clippy
-        shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp/examples/${{ matrix.example }}
-          cargo clippy -- -D warnings
+          nix develop --command cargo clippy -- -D warnings
 
       - name: Build
-        shell: devenv shell bash -- -e {0}
         run: |
           cd ./bsp/examples/${{ matrix.example }}
-          cargo build
+          nix develop --command cargo build
