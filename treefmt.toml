@@ -1,3 +1,12 @@
+[formatter.typos]
+command = "typos"
+options = ["--write-changes", "--force-exclude"]
+includes = ["*"]
+excludes = [
+  "*.kicad_*",
+  "pcb/.gitignore",
+]
+
 [formatter.markdown]
 command = "mdl"
 includes = [ "*.md" ]
@@ -8,5 +17,5 @@ includes = [ "*.nix" ]
 
 [formatter.rust]
 command = "rustfmt"
-options = ["--edition", "2021"]
+options = ["--edition", "2024"]
 includes = [ "*.rs" ]

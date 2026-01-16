@@ -102,11 +102,7 @@ impl PinChangeDetector {
         let changed = self.last != Some(new);
         self.last = Some(new);
 
-        if changed {
-            self.last
-        } else {
-            None
-        }
+        if changed { self.last } else { None }
     }
 }
 
