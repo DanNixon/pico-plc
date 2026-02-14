@@ -5,16 +5,3 @@ updates:
     directory: "."
     schedule:
       interval: quarterly
-
-  - package-ecosystem: cargo
-    directories:
-      - "./bsp/"
-      - "./bsp/examples/kitchen-sink-rp2040"
-      - "./bsp/examples/kitchen-sink-rp235xa"
-      - "./bsp/examples/steal-rp2040"
-    schedule:
-      interval: quarterly
-    groups:
-      cargo-dependencies:
-        patterns:
-          - "*"
