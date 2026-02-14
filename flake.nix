@@ -12,10 +12,6 @@
         alejandra
         mdl
         typos
-
-        # Rust toolchain
-        rustup
-        probe-rs-tools
       ];
     };
   };
