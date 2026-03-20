@@ -6,7 +6,7 @@ on:
     branches:
       - main
     tags:
-      - 'v*'
+      - "v*"
   pull_request:
 
 jobs:
@@ -20,3 +20,29 @@ jobs:
 
       - name: Format
         run: nix develop --command treefmt --fail-on-change
+
+  demo-firmware:
+    name: Demo Firmware
+    needs:
+      - formatting
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        demo:
+          - rp2040
+          - rp235xa
+
+    steps:
+      - uses: actions/checkout@v6
+      - uses: DeterminateSystems/nix-installer-action@v21
+
+      - name: Clippy
+        run: |
+          cd ./demo-firmware/${{ matrix.demo }}
+          nix develop --command cargo clippy -- -Dwarnings
+
+      - name: Clippy
+        run: |
+          cd ./demo-firmware/${{ matrix.demo }}
+          nix develop --command cargo clippy -- -Dwarnings
