@@ -30,4 +30,6 @@ fp-info-cache
 
 *.lck
 
+.history
+
 replicate_layout.log
